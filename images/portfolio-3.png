@@ -1,0 +1,1488 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# " class="no-js">
+<head id="mainhead">
+<title>Why Is Computer Programming Important? | GCU Blog</title>
+<meta name="st:robots" content="follow, index">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<link rel="preconnect" href="https://www.googleoptimize.com">
+<link rel="preconnect" href="https://www.google-analytics.com">
+<link rel="preconnect" href="https://www.googleadservices.com">
+<link rel="preconnect" href="https://s.yimg.com/">
+<link rel="preconnect" href="https://connect.facebook.net/">
+<link rel="preconnect" href="https://az416426.vo.msecnd.net">
+<link rel="preconnect" href="https://builder.lift.acquia.com">
+<link rel="preconnect" href="https://us-east-1-decisionapi.lift.acquia.com">
+<link rel="preconnect" href="https://res.cloudinary.com">
+
+<script src="https://cdn.cookielaw.org/consent/18b97d2c-12b0-4563-a2bd-9f60463ca3cd/otSDKStub.js" data-document-language="true" type="text/javascript" charset="UTF-8" data-domain-script="18b97d2c-12b0-4563-a2bd-9f60463ca3cd"></script>
+<script type="text/javascript">
+      function OptanonWrapper() { }
+    </script>
+
+<meta charset="utf-8" />
+<meta itemprop="acquia_lift:content_title" content="Why Is Programming Important?" />
+<meta itemprop="acquia_lift:content_type" content="blog_post" />
+<meta itemprop="acquia_lift:page_type" content="node page" />
+<meta itemprop="acquia_lift:context_language" content="en" />
+<meta itemprop="acquia_lift:content_section" content="" />
+<meta itemprop="acquia_lift:content_keywords" content="" />
+<meta itemprop="acquia_lift:post_id" content="4135" />
+<meta itemprop="acquia_lift:content_uuid" content="d31a3f0e-ef58-4b78-889b-fa20de713148" />
+<meta itemprop="acquia_lift:published_date" content="1600461017" />
+<meta itemprop="acquia_lift:persona" content="" />
+<meta itemprop="acquia_lift:engagement_score" content="1" />
+<meta itemprop="acquia_lift:account_id" content="GRANDCANYONUNI" />
+<meta itemprop="acquia_lift:site_id" content="gcu_prod" />
+<meta itemprop="acquia_lift:liftAssetsURL" content="https://builder.lift.acquia.com" />
+<meta itemprop="acquia_lift:liftDecisionAPIURL" content="https://us-east-1-decisionapi.lift.acquia.com" />
+<meta itemprop="acquia_lift:bootstrapMode" content="auto" />
+<meta itemprop="acquia_lift:contentReplacementMode" content="trusted" />
+<meta itemprop="acquia_lift:cdfVersion" content="2" />
+<script src="https://builder.lift.acquia.com/lift.js" async></script>
+<meta name="geo.region" content="US" />
+<link rel="canonical" href="https://www.gcu.edu/blog/engineering-technology/computer-programming-importance" />
+<meta name="description" content="Ever wondered why a computer programming degree is important and what skills you might learn? Find out the basics and background of computer programming here." class="swiftype" data-type="string" />
+<meta name="keywords" content="computer programming, computer programming degree" />
+<meta property="og:site_name" content="GCU" />
+<meta property="og:url" content="https://www.gcu.edu/blog/engineering-technology/computer-programming-importance" />
+<meta property="og:title" content="Why Is Programming Important?" />
+<meta property="og:description" content="Computer programming has an integral role in our world. You would not be reading this article without it." />
+<meta class="swiftype" name="content-type" data-type="string" content="Blogs" />
+<meta class="swiftype" name="custom-weight" data-type="integer" content="3" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2" />
+<script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "BlogPosting",
+            "headline": "Why Is Programming Important?",
+            "image": {
+                "@type": "ImageObject",
+                "url": "https://www.gcu.edu/sites/default/files/styles/medium/public/2020-09/programming.jpg?itok=sdekUNl7",
+                "width": "724",
+                "height": "483"
+            },
+            "datePublished": "2020-09-18T13:30:17-0700",
+            "isAccessibleForFree": "True",
+            "author": {
+                "@type": "Organization",
+                "name": "GCU",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.gcu.edu/sites/default/files/media/images/Logos/gcu-schema-logo.png",
+                    "width": "143",
+                    "height": "60"
+                }
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "GCU",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.gcu.edu/sites/default/files/media/images/Logos/gcu-schema-logo.png",
+                    "width": "143",
+                    "height": "60"
+                }
+            }
+        },
+        {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://www.gcu.edu/#collegeoruniversity",
+            "description": "Grand Canyon University (GCU) is Arizona\u0027s premier private Christian university. For more than 65 years, our Phoenix campus has been the gateway to success for countless scholars and industry leaders.",
+            "name": "Grand Canyon University",
+            "sameAs": [
+                "https://www.facebook.com/GrandCanyonU",
+                "https://twitter.com/gcu",
+                "https://plus.google.com/+grandcanyonuniversity",
+                "https://www.instagram.com/gcu/",
+                "https://www.youtube.com/user/gcu",
+                "https://www.linkedin.com/school/grand-canyon-university/",
+                "https://en.wikipedia.org/"
+            ],
+            "url": "https://www.gcu.edu/",
+            "telephone": "1-855-428-5673",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.gcu.edu/sites/default/files/media/images/Logos/gcu-schema-logo-112.png",
+                "width": "267",
+                "height": "112"
+            },
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "3300 West Camelback Road",
+                "addressRegion": "AZ",
+                "postalCode": "85017",
+                "addressCountry": "US"
+            }
+        }
+    ]
+}</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Why Is Programming Important?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Computer programming has an integral role in our world. You would not be reading this article without it. In fact, without computer programming you would not be able to use your cell phone, computer or smart TV. Learning the fundamentals of programming can set you apart from your counterparts, giving you a competitive edge in this technology-driven world. Earning a computer programming degree can help you innovate and create solutions for a global society."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Is Programming?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Programming is using a language that a machine can understand in order to get it to perform various tasks. Computer programming is how we communicate with machines in a way that makes them function how we need."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Is a Program?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A program is a group of logical, mathematical and sequential functions grouped together. When they are grouped, these functions perform a task. Each programming language focuses on different types of tasks as well as gives commands to the machine in different ways."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Is a Class?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In computer programming, a class contains a group of instructions that act as commands for the computer. The class is made up of variables, integers, decimals and other symbols. These are put together in certain orders to let the computer know what task to perform."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Is a Function?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Even if you are new to computer programming, you are familiar with functions. If you use an online music streaming program, you press the button to start or pause the play. Those are functions.  When classes of programming languages are grouped together, they create functions. These functions allow you to perform certain tasks in a program. Some functions are small and control just one aspect of a piece of software or program. Other functions are big and ensure that the program itself runs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Is a Command?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Commands are the methods to control certain aspects of the program or machine. Programming languages use classes and functions that control commands. The reason that programming is so important is that it directs a computer to complete these commands over and over again, so people do not have to do the task repeatedly. Instead, the software can do it automatically and accurately."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why Is it Important to Know About Computer Programming?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If you are thinking about earning your computer programming degree, you will need to know about programming languages, classes, functions and commands. You will create applications, software or different programs. In addition, you may create programs that need to work on various operating systems such as iOS or Android. Those programs have different functions and classes, which means they rely on different programming languages.  All applications on the web are created using computer programming. The languages used in each application you have range from similar to vastly different. Additionally, some languages create things that are running in the background, so you do not even know they are there. Learning computer programming languages allows you to be a versatile computer programmer."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Is the Future Impact of Computer Programming?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Technology production is an essential part of an evolving world. This means that computer programming is exceptionally important for our future as a global society. Computer programming degree graduates can help create this future by automating processes, collecting data, analyzing information and sharing knowledge to continuously innovate and improve upon existing processes.  This means that, while computer programming is extremely important today, it may be even more impactful in the future. As computer programmers across the world work to learn new ways of communicating with machines and computers, the field will continue to grow. Earning your computer programming degree now means you can be part of that research and testing to develop functions that can help society."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Are the Important Computer Programming Languages to Learn?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Computer programming is evolving and so are the languages that are used to develop software and applications. Different programming languages are used for different categories of developers. Some languages are best for beginners, while others are more suited for advanced computer programmers. In addition, some languages are best for different use cases such as web apps, mobile apps and distributed systems.  The best way to determine what programming languages to learn is to know what skills you will need in order to be a successful computer programmer."
+      }
+    }
+  ]
+}
+</script>
+<meta name="og:type" content="article" />
+<meta name="article:author" content="Grand Canyon University" />
+<meta name="og:site-name" content="GCU" />
+<meta name="article:published_time" content="2020-09-25T00:00:00-0700" />
+<meta name="og:image" content="https://www.gcu.edu/sites/default/files/2020-09/programming.jpg" />
+<link rel="icon" href="/sites/default/files/favicon_1.ico" type="image/vnd.microsoft.icon" />
+<link rel="icon" href="/themes/custom/gcu/media/favicon/favicon.ico?rwic0e" sizes="any" />
+<link rel="icon" href="/themes/custom/gcu/media/favicon/favicon.svg?rwic0e" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="/themes/custom/gcu/media/favicon/favicon-180x180-apple.png?rwic0e" />
+<link rel="manifest" href="/themes/custom/gcu/media/favicon/manifest.webmanifest?rwic0e" />
+<meta name="msapplication-TileImage" content="/sites/default/files/media/images/mstile-144x144.png?rwic0e" />
+<meta name="msapplication-TileColor" content="#ffffff" />
+<meta name="theme-color" content="#522398" />
+<script src="https://www.googleoptimize.com/optimize.js?id=GTM-WHKC57K"></script>
+<link rel="stylesheet" href="/themes/custom/gcu/assets/styles/bootstrap.css?v=0.1.1" />
+</head>
+<body>
+<div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+<section aria-label="Main Website Container" class="gcu-base">
+<a href="#main-content" tabindex="1" class="skiplink">Skip to main content</a>
+
+<section class="ie-msg alert--banner alert--banner__danger" role="alert" aria-atomic="true" aria-label="Internet Explorer browser support alert">
+<div class="container">
+<p>This website does not fully support Internet Explorer. For a better experience, please consider using a modern browser such as <a href="https://www.google.com/intl/en/chrome" target="_blank">Chrome</a>, <a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank">Firefox</a>, or <a href="https://www.microsoft.com/en-us/edge" target="_blank">Edge</a>.</p>
+</div> </section>
+<header class="banner gcu-header" aria-label="Main Website Header">
+<div class="container banner__content">
+<div class="banner__logo">
+<a href="/">
+<img src="/themes/custom/gcu/media/images/header/gcu.svg" width="240" height="48" alt="Grand Canyon University" class="desktop" loading="lazy" />
+<svg xmlns="http://www.w3.org/2000/svg" id="GCU" viewBox="0 0 317.19 114.31" aria-label="Grand Canyon University Mobile Logo" class="mobile">
+<path style="fill:#fff;" d="M114,351.57V272.39l17.56-17.56h64.11l16.57,16.57v19.88H180.8V281.5l-3.48-3.65H151.14l-5.63,5.63v58.15l5.63,5.47h26.17l3.48-3.48V327.55H157.61V304.69h54.67v47.88l-16.57,16.57H131.6Z" transform="translate(-114.04 -254.83)" />
+<path style="fill:#fff;" d="M222.1,351.57V272.39l17.56-17.56h59.8l17.73,17.56v24H285.71V283l-5.14-5.14H259.21l-5.63,5.63v57.65l5.63,5.47h21.37l5.14-5V327.22h31.48v24.35l-17.73,17.56h-59.8Z" transform="translate(-114.04 -254.83)" />
+<path style="fill:#fff;" d="M330.55,351.57V273.39h-5.73V254.83H368v18.56h-6.15v65.76l5.63,5.63H388.2l5.63-5.63V273.39h-6V254.83H431v18.56h-5.73v78.18l-17.73,17.56H348.11Z" transform="translate(-114.04 -254.83)" />
+<path style="fill:#fff;" d="M422.51,363.9h-1.67v-0.63H425v0.63H423.3v5.24h-0.78V363.9Z" transform="translate(-114.04 -254.83)" />
+<path style="fill:#fff;" d="M428.15,369.13l-1.58-4.95h0v4.95h-0.73v-5.87H427l1.54,5h0l1.54-5h1.14v5.87h-0.74v-4.95h0l-1.58,4.95h-0.75Z" transform="translate(-114.04 -254.83)" />
+</svg>
+</a>
+</div>
+<div class="banner__cta">
+<a href="https://gcuportal.gcu.edu/" target="_blank" rel="noopener" class="buttons button button--border-bottom visible-dt-inline-block">
+GCU Login
+<span class="sr-only">Open in New Window</span>
+</a>
+<a href="https://www.gcu.edu/rmi/standalone" id="rmiButton" data-cy="rmiButton" data-enabled="false" class="buttons button cta button--cta button--lg">
+Request Info
+</a>
+<a href="https://www.gcu.edu/rmi/apply-now" onclick="dataLayer.push({category: 'navigation', action:'click', value: 'apply-now'})" target="_blank" rel="noopener noreferrer" class="buttons button button--lg">
+Apply<span class="hidden-xs"> Now</span>
+<span class="sr-only">Open in New Window</span>
+</a>
+</div>
+<nav class="banner__nav" aria-label="Main Website Navigation" id="main-navigation">
+
+<button type="button" class="toggle" aria-haspopup="true" aria-controls="headerNavigation">
+<span class="icon-bar" aria-hidden="true"></span>
+<span class="icon-bar" aria-hidden="true"></span>
+<span class="icon-bar" aria-hidden="true"></span>
+<span class="sr-only">Toggle Navigation</span>
+</button>
+<div>
+<ul class="nav navbar-nav" role="menubar">
+<li class="title" role="none">
+Main Menu
+<button class="nav-close" aria-haspopup="true" aria-controls="headerNavigation" aria-label="Press 'Escape' key to close navigation.">
+<span class="sr-only">Close Menu</span>
+</button>
+</li>
+<li class="dropdown" role="menuitem" aria-expanded="false" aria-controls="subMenu1" tabindex="1" id="subMenu1">
+<a href="/degree-programs" role="link" class="dropdown-toggle ">Degree Programs</a>
+<div class="sub-menu" role="none">
+<div class="sub-menu__content" role="none">
+<ul role="menu" aria-label="degree programs">
+<li class="title" role="none">Degree Programs<button class="nav-close" aria-haspopup="true" aria-controls="headerNavigation">
+<span class="sr-only">Close Menu</span>
+</button>
+</li>
+<li class="goback" role="none">
+<button class="subnav-close" aria-haspopup="true" aria-controls="subMenu1">
+Go back to Main Menu
+</button>
+</li>
+<li role="none" class="sub-content">
+<div class="hidden-mo" role="none">
+<div class="img-overlay" id="img-degreeMenuImage">
+<img src="/" class="img-fade" alt="GCU Graduate Student" aria-hidden="true" width="305" height="206" loading="lazy" />
+<img src="https://res.cloudinary.com/grand-canyon-university/image/fetch/w_340,h_227,c_fill,g_faces,f_auto,q_auto/https://www.gcu.edu/sites/default/files/media/images/menu/degree-programs/Degree-Programs-Landing.jpg" class="img img-responsive" alt="GCU Graduate Student" aria-hidden="true" width="305px" height="206px" loading="lazy" />
+</div>
+</div>
+<div role="none">
+
+<div aria-expanded="false" aria-controls="links-AreaofInterest">
+<a href="javascript:void(0)" role="menuitem" aria-label="area of interest" class="nolink section-title">
+Area of Interest </a>
+<ul role="menu" aria-label="area of interest" class="links" id="links-AreaofInterest">
+<li class="title" role="none">Area of Interest<button class="nav-close" aria-haspopup="true" aria-controls="headerNavigation">
+<span class="sr-only">Close Menu</span>
+</button>
+</li>
+<li class="goback" role="none">
+<button type="button" class="subnav-close" aria-haspopup="true" aria-controls="links-AreaofInterest">
+Go back to Degree Programs
+</button>
+</li>
+<li role="none">
+<div role="none">
+<a href="/degree-programs/psychology-counseling" role="menuitem" aria-label="psychology &amp; counseling" data-image="https://res.cloudinary.com/grand-canyon-university/image/fetch/w_340,h_227,c_fill,g_faces,f_auto,q_auto/https://www.gcu.edu/sites/default/files/media/images/menu/degree-programs/Degree-Programs-AOI-Psychology.jpg" data-imageref="img-degreeMenuImage" class="nav__item">
+Psychology &amp; Counseling </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/degree-programs/business-management" role="menuitem" aria-label="business &amp; management" data-image="https://res.cloudinary.com/grand-canyon-university/image/fetch/w_340,h_227,c_fill,g_faces,f_auto,q_auto/https://www.gcu.edu/sites/default/files/media/images/menu/degree-programs/Degree-Programs-AOI-Business.jpg" data-imageref="img-degreeMenuImage" class="nav__item">
+Business &amp; Management </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/degree-programs/teaching-school-administration" role="menuitem" aria-label="teaching &amp; school administration" data-image="https://res.cloudinary.com/grand-canyon-university/image/fetch/w_340,h_227,c_fill,g_faces,f_auto,q_auto/https://www.gcu.edu/sites/default/files/media/images/menu/degree-programs/Degree-Programs-AOI-Teaching.jpg" data-imageref="img-degreeMenuImage" class="nav__item">
+Teaching &amp; School Administration </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/degree-programs/nursing-healthcare" role="menuitem" aria-label="nursing &amp; health care" data-image="https://res.cloudinary.com/grand-canyon-university/image/fetch/w_340,h_227,c_fill,g_faces,f_auto,q_auto/https://www.gcu.edu/sites/default/files/media/images/menu/degree-programs/Degree-Programs-AOI-Nursing.jpg" data-imageref="img-degreeMenuImage" class="nav__item">
+Nursing &amp; Health Care </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/degree-programs/criminal-justice-public-administration" role="menuitem" aria-label="criminal justice, government &amp; public administration" data-image="https://res.cloudinary.com/grand-canyon-university/image/fetch/w_340,h_227,c_fill,g_faces,f_auto,q_auto/https://www.gcu.edu/sites/default/files/media/images/menu/degree-programs/Degree-Programs-AOI-Criminal.jpg" data-imageref="img-degreeMenuImage" class="nav__item">
+Criminal Justice, Government <br /> &nbsp;&nbsp;&nbsp;&nbsp;&amp; Public Administration
+</a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/degree-programs/engineering-technology" role="menuitem" aria-label="engineering &amp; technology" data-image="https://res.cloudinary.com/grand-canyon-university/image/fetch/w_340,h_227,c_fill,g_faces,f_auto,q_auto/https://www.gcu.edu/sites/default/files/media/images/menu/degree-programs/Degree-Programs-AOI-Engineering.jpg" data-imageref="img-degreeMenuImage" class="nav__item">
+Engineering &amp; Technology </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/degree-programs/medical-studies-science" role="menuitem" aria-label="medical studies &amp; sciences" data-image="https://res.cloudinary.com/grand-canyon-university/image/fetch/w_340,h_227,c_fill,g_faces,f_auto,q_auto/https://www.gcu.edu/sites/default/files/media/images/menu/degree-programs/Degree-Programs-AOI-MedicalStudies.jpg" data-imageref="img-degreeMenuImage" class="nav__item">
+Medical Studies &amp; Sciences </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/degree-programs/language-communication" role="menuitem" aria-label="language &amp; communications" data-image="https://res.cloudinary.com/grand-canyon-university/image/fetch/w_340,h_227,c_fill,g_faces,f_auto,q_auto/https://www.gcu.edu/sites/default/files/media/images/menu/degree-programs/Degree-Programs-AOI-Language.jpg" data-imageref="img-degreeMenuImage" class="nav__item">
+Language &amp; Communications </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/degree-programs/theology-ministry" role="menuitem" aria-label="theology &amp; ministry" data-image="https://res.cloudinary.com/grand-canyon-university/image/fetch/w_340,h_227,c_fill,g_faces,f_auto,q_auto/https://www.gcu.edu/sites/default/files/media/images/menu/degree-programs/Degree-Programs-AOI-Theology.jpg" data-imageref="img-degreeMenuImage" class="nav__item">
+Theology &amp; Ministry </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/degree-programs/performing-arts-digital-arts" role="menuitem" aria-label="performing arts &amp; digital arts" data-image="https://res.cloudinary.com/grand-canyon-university/image/fetch/w_340,h_227,c_fill,g_faces,f_auto,q_auto/https://www.gcu.edu/sites/default/files/media/images/menu/degree-programs/Degree-Programs-AOI-PerformingArts.jpg" data-imageref="img-degreeMenuImage" class="nav__item">
+Performing Arts &amp; Digital Arts </a>
+</div>
+</li>
+</ul>
+</div>
+<div aria-expanded="false" aria-controls="links-Location">
+<a href="javascript:void(0)" role="menuitem" aria-label="location" class="nolink section-title">
+Location </a>
+<ul role="menu" aria-label="location" class="links" id="links-Location">
+<li class="title" role="none">Location<button class="nav-close" aria-haspopup="true" aria-controls="headerNavigation">
+<span class="sr-only">Close Menu</span>
+</button>
+</li>
+<li class="goback" role="none">
+<button type="button" class="subnav-close" aria-haspopup="true" aria-controls="links-Location">
+Go back to Degree Programs
+</button>
+</li>
+<li role="none">
+<div role="none">
+<a href="/degree-programs/online-degrees" role="menuitem" aria-label="online" class="nav__item">
+<span class="icon" aria-hidden="true">
+<img src="/themes/custom/gcu/media/images/icons/icon-online-orange.svg" width="14" height="14" alt="OnlineIcon" />
+</span>
+Online </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/degree-programs/on-campus-degrees" role="menuitem" aria-label="campus" class="nav__item">
+<span class="icon" aria-hidden="true">
+<img src="/themes/custom/gcu/media/images/icons/icon-campus-green.svg" width="14" height="14" alt="CampusIcon" />
+</span>
+Campus </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/degree-programs/evening-degrees" role="menuitem" aria-label="evening" class="nav__item">
+<span class="icon" aria-hidden="true">
+<img src="/themes/custom/gcu/media/images/icons/icon-evening-blue.svg" width="14" height="14" alt="EveningIcon" />
+</span>
+Evening </a>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div role="none">
+<div aria-expanded="false" aria-controls="links-DegreeLevel">
+<a href="javascript:void(0)" role="menuitem" aria-label="degree level" class="nolink section-title">
+Degree Level </a>
+<ul role="menu" aria-label="degree level" class="links" id="links-DegreeLevel">
+<li class="title" role="none">Degree Level<button class="nav-close" aria-haspopup="true" aria-controls="headerNavigation">
+<span class="sr-only">Close Menu</span>
+</button>
+</li>
+<li class="goback" role="none">
+<button type="button" class="subnav-close" aria-haspopup="true" aria-controls="links-DegreeLevel">
+Go back to Degree Programs
+</button>
+</li>
+<li role="none">
+<div role="none">
+<a href="/degree-programs/bachelors-degree" role="menuitem" aria-label="bachelor&#039;s" class="nav__item">
+Bachelor&#039;s </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/degree-programs/masters-degree" role="menuitem" aria-label="master&#039;s" class="nav__item">
+Master&#039;s </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/degree-programs/doctoral-degree" role="menuitem" aria-label="doctoral" class="nav__item">
+Doctoral </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/degree-programs/certificates" role="menuitem" aria-label="certificates" class="nav__item">
+Certificates </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/degree-programs/bridge-programs" role="menuitem" aria-label="bridge" class="nav__item">
+Bridge </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/degree-programs/post-masters-certificates" role="menuitem" aria-label="post-master&#039;s" class="nav__item">
+Post-Master&#039;s </a>
+</div>
+</li>
+</ul>
+</div>
+<div aria-expanded="false" aria-controls="links-OtherCourseOptions">
+<a href="javascript:void(0)" role="menuitem" aria-label="other course options" class="nolink section-title">
+Other Course Options </a>
+<ul role="menu" aria-label="other course options" class="links" id="links-OtherCourseOptions">
+<li class="title" role="none">Other Course Options<button class="nav-close" aria-haspopup="true" aria-controls="headerNavigation">
+<span class="sr-only">Close Menu</span>
+</button>
+</li>
+<li class="goback" role="none">
+<button type="button" class="subnav-close" aria-haspopup="true" aria-controls="links-OtherCourseOptions">
+Go back to Degree Programs
+</button>
+</li>
+<li role="none">
+<div role="none">
+<a href="/academics/minor-degree-programs.php" role="menuitem" aria-label="minors" class="nav__item">
+Minors </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/individual-courses/single-courses" role="menuitem" aria-label="individual courses" class="nav__item">
+Individual Courses </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/individual-courses/dual-enrollment" role="menuitem" aria-label="high school dual enrollment" class="nav__item">
+High School Dual Enrollment </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/individual-courses/continuing-education" role="menuitem" aria-label="current teacher continuing education" class="nav__item">
+Current Teacher Continuing Education </a>
+</div>
+</li>
+</ul>
+</div>
+<div role="none">
+<a href="/degree-programs" role="menuitem" aria-label="all majors &amp; programs" class="nav__item strong">
+All Majors &amp; Programs </a>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="dropdown" role="menuitem" aria-expanded="false" aria-controls="subMenu2" tabindex="2" id="subMenu2">
+<a href="/academics" role="link" class="dropdown-toggle ">Academics</a>
+<div class="sub-menu" role="none">
+<div class="sub-menu__content" role="none">
+<ul role="menu" aria-label="academics">
+<li class="title" role="none">Academics<button class="nav-close" aria-haspopup="true" aria-controls="headerNavigation">
+<span class="sr-only">Close Menu</span>
+</button>
+</li>
+<li class="goback" role="none">
+<button class="subnav-close" aria-haspopup="true" aria-controls="subMenu2">
+Go back to Main Menu
+</button>
+</li>
+<li role="none" class="sub-content">
+<div class="hidden-mo" role="none">
+<div class="img-overlay" id="img-academicMenuImage">
+<img src="/" class="img-fade" alt="GCU Graduation" aria-hidden="true" width="305" height="206" loading="lazy" />
+<img src="https://res.cloudinary.com/grand-canyon-university/image/fetch/w_340,h_227,c_fill,g_faces,f_auto,q_auto/https://www.gcu.edu/sites/default/files/media/images/menu/academics/Academics-Landing.jpg" class="img img-responsive" alt="GCU Graduation" aria-hidden="true" width="305px" height="206px" loading="lazy" />
+</div>
+</div>
+<div role="none">
+<div aria-expanded="false" aria-controls="links-Colleges">
+<a href="javascript:void(0)" role="menuitem" aria-label="colleges" class="nolink section-title">
+Colleges </a>
+<ul role="menu" aria-label="colleges" class="links" id="links-Colleges">
+<li class="title" role="none">Colleges<button class="nav-close" aria-haspopup="true" aria-controls="headerNavigation">
+<span class="sr-only">Close Menu</span>
+</button>
+</li>
+<li class="goback" role="none">
+<button type="button" class="subnav-close" aria-haspopup="true" aria-controls="links-Colleges">
+Go back to Academics
+</button>
+</li>
+<li role="none">
+<div role="none">
+<a href="/college-of-doctoral-studies.php" role="menuitem" aria-label="doctoral" data-image="https://res.cloudinary.com/grand-canyon-university/image/fetch/w_340,h_227,c_fill,g_faces,f_auto,q_auto/https://www.gcu.edu/sites/default/files/media/images/menu/academics/Academics-College-Doctoral.jpg" data-imageref="img-academicMenuImage" class="nav__item">
+Doctoral </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/colangelo-college-of-business.php" role="menuitem" aria-label="business" data-image="https://res.cloudinary.com/grand-canyon-university/image/fetch/w_340,h_227,c_fill,g_faces,f_auto,q_auto/https://www.gcu.edu/sites/default/files/media/images/academics/colleges/ccob/Ground_CCOB-110821-019%20full.png" data-imageref="img-academicMenuImage" class="nav__item">
+Business </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/college-of-education.php" role="menuitem" aria-label="education" data-image="https://res.cloudinary.com/grand-canyon-university/image/fetch/w_340,h_227,c_fill,g_faces,f_auto,q_auto/https://www.gcu.edu/sites/default/files/media/images/menu/academics/Academics-Colleges-Education.jpg" data-imageref="img-academicMenuImage" class="nav__item">
+Education </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/college-of-arts-and-media" role="menuitem" aria-label="arts &amp; media" data-image="https://res.cloudinary.com/grand-canyon-university/image/fetch/w_340,h_227,c_fill,g_faces,f_auto,q_auto/https://www.gcu.edu/sites/default/files/media/images/menu/academics/Academics-College-FineArts.jpg" data-imageref="img-academicMenuImage" class="nav__item">
+Arts &amp; Media </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/college-of-humanities-and-social-sciences" role="menuitem" aria-label="humanities &amp; social sciences" data-image="https://res.cloudinary.com/grand-canyon-university/image/fetch/w_340,h_227,c_fill,g_faces,f_auto,q_auto/https://www.gcu.edu/sites/default/files/media/images/menu/academics/Academics-College-Humanities.jpg" data-imageref="img-academicMenuImage" class="nav__item">
+Humanities &amp; Social Sciences </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/college-of-nursing-and-health-care-professions.php" role="menuitem" aria-label="nursing &amp; health care" data-image="https://res.cloudinary.com/grand-canyon-university/image/fetch/w_340,h_227,c_fill,g_faces,f_auto,q_auto/https://www.gcu.edu/sites/default/files/media/images/menu/academics/Academics-College-Nursing.jpg" data-imageref="img-academicMenuImage" class="nav__item">
+Nursing &amp; Health Care </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/college-of-science-engineering-and-technology.php" role="menuitem" aria-label="science, engineering &amp; technology" data-image="https://res.cloudinary.com/grand-canyon-university/image/fetch/w_340,h_227,c_fill,g_faces,f_auto,q_auto/https://www.gcu.edu/sites/default/files/media/images/menu/academics/Academics-College-Engineering.jpg" data-imageref="img-academicMenuImage" class="nav__item">
+Science, Engineering &amp; Technology </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/college-of-theology" role="menuitem" aria-label="theology" data-image="https://res.cloudinary.com/grand-canyon-university/image/fetch/w_340,h_227,c_fill,g_faces,f_auto,q_auto/https://www.gcu.edu/sites/default/files/media/images/menu/academics/Academics-Theology-Hover.jpg" data-imageref="img-academicMenuImage" class="nav__item">
+Theology </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/honors-college" role="menuitem" aria-label="honors" data-image="https://res.cloudinary.com/grand-canyon-university/image/fetch/w_340,h_227,c_fill,g_faces,f_auto,q_auto/https://www.gcu.edu/sites/default/files/media/images/menu/academics/Academics-College-Honors.jpg" data-imageref="img-academicMenuImage" class="nav__item">
+Honors </a>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div role="none">
+<div role="none">
+<a href="/academics/academic-policies.php" role="menuitem" aria-label="academic catalog &amp; policies" class="nav__item">
+Academic Catalog &amp; Policies </a>
+</div>
+<div role="none">
+<a href="/academics/accreditation" role="menuitem" aria-label="university accreditation &amp; regulation" class="nav__item">
+University Accreditation &amp; Regulation </a>
+</div>
+<div role="none">
+<a href="/academics/educational-alliances.php" role="menuitem" aria-label="educational alliances" class="nav__item">
+Educational Alliances </a>
+</div>
+<div role="none">
+<a href="/faculty-list" role="menuitem" aria-label="faculty directory" class="nav__item">
+Faculty Directory </a>
+</div>
+<div role="none">
+<a href="/academics/office-of-assessment" role="menuitem" aria-label="office of assessment" class="nav__item">
+Office of Assessment </a>
+</div>
+<div role="none">
+<a href="/academics/provost-message" role="menuitem" aria-label="provost message" class="nav__item">
+Provost Message </a>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="dropdown" role="menuitem" aria-expanded="false" aria-controls="subMenu3" tabindex="3" id="subMenu3">
+<a href="/admissions" role="link" class="dropdown-toggle ">Admissions</a>
+<div class="sub-menu" role="none">
+<div class="sub-menu__content" role="none">
+<ul role="menu" aria-label="admissions">
+<li class="title" role="none">Admissions<button class="nav-close" aria-haspopup="true" aria-controls="headerNavigation">
+<span class="sr-only">Close Menu</span>
+</button>
+</li>
+<li class="goback" role="none">
+<button class="subnav-close" aria-haspopup="true" aria-controls="subMenu3">
+Go back to Main Menu
+</button>
+</li>
+<li role="none" class="sub-content">
+<div role="none">
+<a href="/admissions/undergraduate" class="img-overlay link nav__item" role="menuitem">
+<img src="https://res.cloudinary.com/grand-canyon-university/image/fetch/w_340,h_227,c_fill,g_faces,f_auto,q_auto/https://www.gcu.edu/sites/default/files/media/images/menu/admissions/Admissions-Tuition-2.jpg" class="img img-responsive" alt="a student and her family" aria-hidden="true" width="305" height="206" loading="lazy" />
+<div class="nav__item-title">
+Undergraduate Admissions
+</div>
+</a>
+</div>
+<div role="none">
+<a href="/admissions/graduate-doctoral" class="img-overlay link nav__item" role="menuitem">
+<img src="https://res.cloudinary.com/grand-canyon-university/image/fetch/w_340,h_227,c_fill,g_faces,f_auto,q_auto/https://www.gcu.edu/sites/default/files/media/images/menu/admissions/Admissions-Requirements.jpg" class="img img-responsive" alt="graduate student on campus" aria-hidden="true" width="305" height="206" loading="lazy" />
+<div class="nav__item-title">
+Graduate &amp; Doctoral Admissions
+</div>
+</a>
+</div>
+<div role="none">
+<div role="none">
+<a href="/admissions" role="menuitem" aria-label="admission requirements" class="nav__item">
+Admission Requirements </a>
+</div>
+<div role="none">
+<a href="/admissions/college-transfer-center.php" role="menuitem" aria-label="college transfer center" class="nav__item">
+College Transfer Center </a>
+</div>
+<div role="none">
+<a href="/admissions/visit-gcu-campus" role="menuitem" aria-label="visit campus" class="nav__item">
+Visit Campus </a>
+</div>
+<div role="none">
+<a href="/admissions/campus-resources" role="menuitem" aria-label="campus resources" class="nav__item">
+Campus Resources </a>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="dropdown" role="menuitem" aria-expanded="false" aria-controls="subMenu4" tabindex="4" id="subMenu4">
+<a href="/tuition-and-financial-aid" role="link" class="dropdown-toggle ">Tuition &amp; Financial Aid</a>
+<div class="sub-menu" role="none">
+<div class="sub-menu__content" role="none">
+<ul role="menu" aria-label="tuition &amp; financial aid">
+<li class="title" role="none">Tuition &amp; Financial Aid<button class="nav-close" aria-haspopup="true" aria-controls="headerNavigation">
+<span class="sr-only">Close Menu</span>
+</button>
+</li>
+<li class="goback" role="none">
+<button class="subnav-close" aria-haspopup="true" aria-controls="subMenu4">
+Go back to Main Menu
+</button>
+</li>
+<li role="none" class="sub-content">
+<div role="none">
+<a href="/tuition-and-financial-aid" class="img-overlay link nav__item" role="menuitem">
+<img src="https://res.cloudinary.com/grand-canyon-university/image/fetch/w_340,h_227,c_fill,g_faces,f_auto,q_auto/https://www.gcu.edu/sites/default/files/media/images/menu/experience/GCU-Experience-Online.jpg" class="img img-responsive" alt="woman going over tuition for classes" aria-hidden="true" width="305" height="206" loading="lazy" />
+<div class="nav__item-title">
+Tuition &amp; Financial Aid
+</div>
+</a>
+</div>
+<div role="none">
+<div aria-expanded="false" aria-controls="links-Tuition">
+<a href="javascript:void(0)" role="menuitem" aria-label="tuition" class="nolink section-title">
+Tuition </a>
+<ul role="menu" aria-label="tuition" class="links" id="links-Tuition">
+<li class="title" role="none">Tuition<button class="nav-close" aria-haspopup="true" aria-controls="headerNavigation">
+<span class="sr-only">Close Menu</span>
+</button>
+</li>
+<li class="goback" role="none">
+<button type="button" class="subnav-close" aria-haspopup="true" aria-controls="links-Tuition">
+Go back to Tuition &amp; Financial Aid
+</button>
+</li>
+<li role="none">
+<div role="none">
+<a href="/tuition/online-evening" role="menuitem" aria-label="online &amp; evening" class="nav__item">
+Online &amp; Evening </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/tuition/on-campus" role="menuitem" aria-label="on-campus" class="nav__item">
+On-Campus </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/tuition/housing-meal-costs" role="menuitem" aria-label="housing &amp; meal costs" class="nav__item">
+Housing &amp; Meal Costs </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/tuition/other-fees" role="menuitem" aria-label="other fees" class="nav__item">
+Other Fees </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/tuition/cost-attendance" role="menuitem" aria-label="cost of attendance" class="nav__item">
+Cost of Attendance </a>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div role="none">
+<div aria-expanded="false" aria-controls="links-FinancialAid">
+<a href="javascript:void(0)" role="menuitem" aria-label="financial aid" class="nolink section-title">
+Financial Aid </a>
+<ul role="menu" aria-label="financial aid" class="links" id="links-FinancialAid">
+<li class="title" role="none">Financial Aid<button class="nav-close" aria-haspopup="true" aria-controls="headerNavigation">
+<span class="sr-only">Close Menu</span>
+</button>
+</li>
+<li class="goback" role="none">
+<button type="button" class="subnav-close" aria-haspopup="true" aria-controls="links-FinancialAid">
+Go back to Tuition &amp; Financial Aid
+</button>
+</li>
+<li role="none">
+<div role="none">
+<a href="/financial-aid/fafsa" role="menuitem" aria-label="fafsa" class="nav__item">
+FAFSA </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/financial-aid/scholarships-grants" role="menuitem" aria-label="scholarships &amp; grants" class="nav__item">
+Scholarships &amp; Grants </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/financial-aid/student-loans" role="menuitem" aria-label="student loans" class="nav__item">
+Student Loans </a>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="dropdown" role="menuitem" aria-expanded="false" aria-controls="subMenu5" tabindex="5" id="subMenu5">
+<a href="/why-gcu" role="link" class="dropdown-toggle ">Why GCU</a>
+<div class="sub-menu" role="none">
+<div class="sub-menu__content" role="none">
+<ul role="menu" aria-label="why gcu">
+<li class="title" role="none">Why GCU<button class="nav-close" aria-haspopup="true" aria-controls="headerNavigation">
+<span class="sr-only">Close Menu</span>
+</button>
+</li>
+<li class="goback" role="none">
+<button class="subnav-close" aria-haspopup="true" aria-controls="subMenu5">
+Go back to Main Menu
+</button>
+</li>
+<li role="none" class="sub-content">
+<div role="none">
+<a href="/why-gcu" class="img-overlay link nav__item" role="menuitem">
+<img src="https://res.cloudinary.com/grand-canyon-university/image/fetch/w_340,h_227,c_fill,g_faces,f_auto,q_auto/https://www.gcu.edu/sites/default/files/media/images/menu/experience/GCU-Experience-Campus.jpg" class="img img-responsive" alt="havocs at a GCU basketball game" aria-hidden="true" width="305" height="206" loading="lazy" />
+<div class="nav__item-title">
+Why GCU
+</div>
+</a>
+</div>
+<div role="none">
+<div aria-expanded="false" aria-controls="links-StudentJourney">
+<a href="javascript:void(0)" role="menuitem" aria-label="student journey" class="nolink section-title">
+Student Journey </a>
+<ul role="menu" aria-label="student journey" class="links" id="links-StudentJourney">
+<li class="title" role="none">Student Journey<button class="nav-close" aria-haspopup="true" aria-controls="headerNavigation">
+<span class="sr-only">Close Menu</span>
+</button>
+</li>
+<li class="goback" role="none">
+<button type="button" class="subnav-close" aria-haspopup="true" aria-controls="links-StudentJourney">
+Go back to Why GCU
+</button>
+</li>
+<li role="none">
+<div role="none">
+<a href="/why-gcu/online-learning" role="menuitem" aria-label="online learning" class="nav__item">
+Online Learning </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/why-gcu/campus-life" role="menuitem" aria-label="campus life" class="nav__item">
+Campus Life </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/why-gcu/evening-classes" role="menuitem" aria-label="evening classes" class="nav__item">
+Evening Classes </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/why-gcu/hybrid-learning" role="menuitem" aria-label="hybrid learning" class="nav__item">
+Hybrid Learning </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/why-gcu/military-university" role="menuitem" aria-label="military &amp; veteran" class="nav__item">
+Military &amp; Veteran </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/why-gcu/rotc-programs" role="menuitem" aria-label="rotc" class="nav__item">
+ROTC </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/why-gcu/international-students" role="menuitem" aria-label="international students" class="nav__item">
+International Students </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/why-gcu/native-american" role="menuitem" aria-label="native american" class="nav__item">
+Native American </a>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div role="none">
+<div aria-expanded="false" aria-controls="links-OurStory">
+<a href="javascript:void(0)" role="menuitem" aria-label="our story" class="nolink section-title">
+Our Story </a>
+<ul role="menu" aria-label="our story" class="links" id="links-OurStory">
+<li class="title" role="none">Our Story<button class="nav-close" aria-haspopup="true" aria-controls="headerNavigation">
+<span class="sr-only">Close Menu</span>
+</button>
+</li>
+<li class="goback" role="none">
+<button type="button" class="subnav-close" aria-haspopup="true" aria-controls="links-OurStory">
+Go back to Why GCU
+</button>
+</li>
+<li role="none">
+<div role="none">
+<a href="/why-gcu/university-snapshot" role="menuitem" aria-label="university snapshot" class="nav__item">
+University Snapshot </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/why-gcu/christian-identity-and-mission" role="menuitem" aria-label="christian identity &amp; mission" class="nav__item">
+Christian Identity &amp; Mission </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/why-gcu/history-of-gcu" role="menuitem" aria-label="history &amp; campus growth" class="nav__item">
+History &amp; Campus Growth </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/about/community-outreach-volunteering" role="menuitem" aria-label="community outreach" class="nav__item">
+Community Outreach </a>
+</div>
+</li>
+</ul>
+</div>
+<div aria-expanded="false" aria-controls="links-About">
+<a href="javascript:void(0)" role="menuitem" aria-label="about" class="nolink section-title">
+About </a>
+<ul role="menu" aria-label="about" class="links" id="links-About">
+<li class="title" role="none">About<button class="nav-close" aria-haspopup="true" aria-controls="headerNavigation">
+<span class="sr-only">Close Menu</span>
+</button>
+</li>
+<li class="goback" role="none">
+<button type="button" class="subnav-close" aria-haspopup="true" aria-controls="links-About">
+Go back to Why GCU
+</button>
+</li>
+<li role="none">
+<div role="none">
+<a href="/about/leadership-team" role="menuitem" aria-label="leadership team" class="nav__item">
+Leadership Team </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/about/locations" role="menuitem" aria-label="campus locations" class="nav__item">
+Campus Locations </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/blog" role="menuitem" aria-label="blog" class="nav__item">
+Blog </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/about/offices-services" role="menuitem" aria-label="offices" class="nav__item">
+Offices </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/about/contact" role="menuitem" aria-label="contact" class="nav__item">
+Contact </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/about/media-and-branding" role="menuitem" aria-label="media &amp; branding" class="nav__item">
+Media &amp; Branding </a>
+</div>
+</li>
+<li role="none">
+<div role="none">
+<a href="/coronavirus-disease-2019-information" role="menuitem" aria-label="covid-19 information" class="nav__item">
+COVID-19 Information </a>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="visible-mo" role="none">
+<a href="https://gcuportal.gcu.edu/" role="link" target="_blank" rel="noopener" class=" ">GCU Login</a>
+</li>
+<li class="footer" role="none">
+<button type="button" class="openRMI buttons button button--cta button--inline">
+Request Info
+</button>
+<a href="https://apply.gcu.edu/Register.aspx?sid=WEB&caid=Direct&aid=Apply.GCUweb" target="_blank" rel="noopener" class="buttons button button--inline">
+Apply
+<span class="sr-only">Open in New Window</span>
+</a>
+</li>
+</ul>
+</div>
+</nav>
+<form class="banner__search" method="get" action="/search">
+<label class="sr-only" for="mainSearch">Search by Keyword</label>
+<input type="text" name="q" autocomplete="off" id="mainSearch" placeholder="Search..." required>
+<span class="triangle" aria-hidden="true"></span>
+<button type="submit">
+<span class="sr-only">Submit Search Form</span>
+</button>
+</form>
+</div>
+</header>
+<main class="mainContent" id="main-content" tabindex="-1" aria-label="Main Website Content">
+
+<div id="rmiFormContainer">
+<div class="container" style="opacity: 0;">
+<div class="rmiForm hidden">
+<button id="rmiClose" class="button" data-cy="close-rmi">
+<svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<path d="M1490 1322q0 40-28 68l-136 136q-28 28-68 28t-68-28l-294-294-294 294q-28 28-68 28t-68-28l-136-136q-28-28-28-68t28-68l294-294-294-294q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 294 294-294q28-28 68-28t68 28l136 136q28 28 28 68t-28 68l-294 294 294 294q28 28 28 68z" />
+</svg>
+<span class="sr-only">Close Form</span>
+</button>
+<div class="wrapRmiForm">
+<div id="mainRMI" data-location="https://rmi-form-builder.gcu.edu/v1/generate?value=desktop" data-mobile="https://rmi-form-builder.gcu.edu/v1/generate?value=mobile">
+<p class="spinner"><span class="sr-only">Loading</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div data-swiftype-name="body" data-swiftype-type="text">
+<div>
+<div data-drupal-messages-fallback class="hidden"></div><div id="block-gcu-page-title">
+</div>
+<div id="block-gcu-content">
+<header class="container header-content">
+<h1 data-swiftype-name="title" data-swiftype-type="string" id="mainHeadingLabel" class="heading-label">
+<a class="heading-anchor" id="h-blog-post"></a>
+<span>Why Is Programming Important?</span>
+</h1>
+</header>
+<div class="container breadcrumb-box-dt">
+<nav aria-label="Breadcrumbs">
+<ul>
+<li>
+<span>
+<a class="breadcrumb-page-level-link" href="/" aria-label="Home">Home</a>
+&nbsp;
+</span>
+</li>
+<li>
+<svg data-index="2" class="breadcrumb-arrow" aria-hidden="true" width="14" height="14" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+<path fill="#333333" d="M1171 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z" />
+</svg>
+ <span>
+<a class="breadcrumb-page-level-link" href="/blog/tag/computer-programming" aria-label="Computer Programming">Computer Programming</a>
+&nbsp;
+</span>
+</li>
+<li>
+<svg data-index="3" class="breadcrumb-arrow" aria-hidden="true" width="14" height="14" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+<path fill="#333333" d="M1171 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z" />
+</svg>
+<span class="breadcrumb-last-link">Engineering &amp; Technology</span>
+</li>
+</ul>
+</nav>
+</div>
+<section class="container" aria-label="Why Is Programming Important?">
+<div class="row">
+<div class="col-md-8 extra-padding">
+<div class="blog-byline margin-bottom-20">
+<span class='press-date'>September 25, 2020</span>
+<span>in [ <a href="/blog/engineering-technology">Engineering &amp; Technology</a> ]</span>
+</div>
+<div class="blog-leadin">
+<p></p>
+</div>
+<style>
+        @media(min-width: 320px) {
+          .blog-leadin__image {
+            min-height: 195px;
+          }
+        }
+        @media(min-width: 480px) {
+          .blog-leadin__image {
+            min-height: 277px;
+          }
+        }
+        @media(min-width: 768px) {
+          .blog-leadin__image {
+            min-height: 454px;
+          }
+        }
+      </style>
+<img src="https://res.cloudinary.com/grand-canyon-university/image/fetch/w_750,h_564,c_fill,g_faces,q_auto/https://www.gcu.edu/sites/default/files/2020-09/programming.jpg" srcset="https://res.cloudinary.com/grand-canyon-university/image/fetch/w_320,h_240,c_fill,g_faces,q_auto,f_auto/https://www.gcu.edu/sites/default/files/2020-09/programming.jpg 320w,https://res.cloudinary.com/grand-canyon-university/image/fetch/w_480,h_316,c_fill,g_faces,q_auto,f_auto/https://www.gcu.edu/sites/default/files/2020-09/programming.jpg 480w,https://res.cloudinary.com/grand-canyon-university/image/fetch/w_750,h_564,c_fill,g_faces,q_auto,f_auto/https://www.gcu.edu/sites/default/files/2020-09/programming.jpg 750w" sizes="(max-width: 479px) 320px, (max-width: 767px) 480px, 750px" class="blog-leadin__image gray-border" style="margin-bottom: 30px; width: 100%; height: auto;" alt="Focused computer programming coding on multiple screens" />
+<div>
+<p>Computer programming has an integral role in our world. You would not be reading this article without it. In fact, without computer programming you would not be able to use your cell phone, computer or smart TV. Learning the fundamentals of programming can set you apart from your counterparts, giving you a competitive edge in this technology-driven world. Earning a <a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="96df84b9-47e0-430f-965a-13bfcb6c7559" href="/blog/engineering-technology/3-careers-computer-programming-degree" title="3 Careers with a Computer Programming Degree">computer programming degree</a> can help you innovate and create solutions for a global society.</p>
+<p><strong>Learn More About:</strong></p>
+<ul><li><a href="#h-what-is-programming">What Is Programming?</a></li>
+<li><a href="#h-what-is-a-program">What Is a Program?</a></li>
+<li><a href="#h-what-is-a-class">What Is a Class?</a></li>
+<li><a href="#h-what-is-a-function">What Is a Function?</a></li>
+<li><a href="#h-what-is-a-command">What Is a Command?</a></li>
+<li><a href="#h-why-is-it-important-to-know-about-computer-programming">Why Is it Important to Know About Computer Programming?</a></li>
+<li><a href="#h-what-is-the-future-impact-of-computer-programming">What Is the Future Impact of Computer Programming?</a></li>
+<li><a href="#h-what-are-the-important-computer-programming-languages-to-learn">What Are the Important Computer Programming Languages to Learn?</a></li>
+</ul><h2 id="h-what-is-programming">What Is Programming?</h2>
+<p>Programming is using a language that a machine can understand in order to get it to perform various tasks. Computer programming is how we communicate with machines in a way that makes them function how we need.</p>
+<h2 id="h-what-is-a-program">What Is a Program?</h2>
+<p>A program is a group of logical, mathematical and sequential functions grouped together. When they are grouped, these functions perform a task. Each programming language focuses on different types of tasks as well as gives commands to the machine in different ways.</p>
+<h2 id="h-what-is-a-class">What Is a Class?</h2>
+<p>In computer programming, a class contains a group of instructions that act as commands for the computer. The class is made up of variables, integers, decimals and other symbols. These are put together in certain orders to let the computer know what task to perform.</p>
+<h2 id="h-what-is-a-function">What Is a Function?</h2>
+<p>Even if you are new to computer programming, you are familiar with functions. If you use an online music streaming program, you press the button to start or pause the play. Those are functions.</p>
+<p>When classes of programming languages are grouped together, they create functions. These functions allow you to perform certain tasks in a program. Some functions are small and control just one aspect of a piece of software or program. Other functions are big and ensure that the program itself runs.</p>
+<h2 id="h-what-is-a-command">What Is a Command?</h2>
+<p>Commands are the methods to control certain aspects of the program or machine. Programming languages use classes and functions that control commands. The reason that programming is so important is that it directs a computer to complete these commands over and over again, so people do not have to do the task repeatedly. Instead, the software can do it automatically and accurately.</p>
+<h2 id="h-why-is-it-important-to-know-about-computer-programming">Why Is it Important to Know About Computer Programming?</h2>
+<p>If you are thinking about earning your computer programming degree, you will need to know about programming languages, classes, functions and commands. You will create applications, software or different programs. In addition, you may create programs that need to work on various operating systems such as iOS or Android. Those programs have different functions and classes, which means they rely on different programming languages.</p>
+<p>All applications on the web are created using computer programming. The languages used in each application you have range from similar to vastly different. Additionally, some languages create things that are running in the background, so you do not even know they are there. Learning computer programming languages allows you to be a versatile computer programmer.</p>
+<h2 id="h-what-is-the-future-impact-of-computer-programming">What Is the Future Impact of Computer Programming?</h2>
+<p>Technology production is an essential part of an evolving world. This means that computer programming is exceptionally important for our future as a global society. Computer programming degree graduates can help create this future by automating processes, collecting data, analyzing information and sharing knowledge to continuously innovate and improve upon existing processes.</p>
+<p>This means that, while computer programming is extremely important today, it may be even more impactful in the future. As computer programmers across the world work to learn new ways of communicating with machines and computers, the field will continue to grow. Earning your computer programming degree now means you can be part of that research and testing to develop functions that can help society.</p>
+<p>Computer programming is important today because so much of our world is automated. Humans need to be able to control the interaction between people and machines. Since computers and machines are able to do things so efficiently and accurately, we use computer programming to harness that computing power.</p>
+<h2 id="h-what-are-the-important-computer-programming-languages-to-learn">What Are the Important Computer Programming Languages to Learn?</h2>
+<p>Computer programming is evolving and so are the languages that are used to develop software and applications. Different programming languages are used for different categories of developers. Some languages are best for beginners, while others are more suited for advanced computer programmers. In addition, some languages are best for different use cases such as web apps, mobile apps and distributed systems.</p>
+<p>The best way to determine what programming languages to learn is to know what skills you will need in order to be a successful computer programmer.</p>
+<p>Popular and important computer programming languages based on necessity and application include:</p>
+<ul><li>Python</li>
+<li>Java</li>
+<li>C/C++</li>
+<li>JavaScript</li>
+<li>Swift</li>
+</ul><p>Each of these language ranges in usability and ease of learning. Python is considered the best beginner programming language. It is easy to learn and to deploy. Java has been a popular language for many decades. It is the official language for Android apps. C and C++ are considered the foundational languages for many operating systems and file systems. JavaScript is popular for front end developers because it helps make applications look clean and clear for the user. Swift is a native iOS language and has been growing in popularity as Mac and Apple products become industry favorites.</p>
+<p><em>If you are ready to learn computer programming and many different coding languages that can help you create applications and software, join us at Grand Canyon University for the <a href="/degree-programs/bachelor-of-science-in-computer-programming">Bachelor of Science in Computer Programming</a> degree program.</em></p>
+</div>
+<div class="disclaimer">
+<p class="sub-title">The views and opinions expressed in this article are those of the author’s and do not
+necessarily reflect the official policy or position of Grand Canyon University. Any sources cited were
+accurate as of the publish date.</p>
+</div>
+<div class="blog-tags">
+<p class="h4">Tags</p>
+<ul>
+<li>
+<a href="/blog/tag/computer-programming">Computer Programming</a>
+</li>
+</ul>
+</div>
+<div data-hydrate-once="1">
+<div class="social-icons social--blog" data-module="socialShare">
+<a href="https://www.facebook.com/dialog/share?href=https%3A%2F%2Fwww.gcu.edu%2Fblog%2Fengineering-technology%2Fcomputer-programming-importance&amp;quote=Why%20Is%20Programming%20Important%3F&amp;display=popup" class="js-social-share-popup" data-popup-height="300" data-share="facebook" data-popup-width="600" data-tooltip="top" title="Share on Facebook" rel="noopener noreferrer" target="_blank">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g><g><path fill="#1877f2" d="M24 12c0-6.628-5.373-12-12-12S0 5.372 0 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078V12h3.047V9.356c0-3.007 1.791-4.669 4.532-4.669 1.313 0 2.687.235 2.687.235v2.953H15.83c-1.49 0-1.955.925-1.955 1.874V12h3.328l-.532 3.469h-2.796v8.385C19.612 22.954 24 17.99 24 12" /></g></g></svg>
+</a>
+<a href="https://twitter.com/intent/tweet?text=Why%20Is%20Programming%20Important%3F&amp;via=gcu&amp;url=https%3A%2F%2Fwww.gcu.edu%2Fblog%2Fengineering-technology%2Fcomputer-programming-importance" class="js-social-share-popup" data-share="twitter" data-popup-height="300" data-popup-width="600" data-tooltip="top" title="Share on Twitter" rel="noopener noreferrer" target="_blank">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 20"><g><g><path fill="#1da1f2" d="M7.548 20c9.057 0 14.01-7.694 14.01-14.366 0-.218-.005-.436-.014-.652A10.17 10.17 0 0 0 24 2.368a9.644 9.644 0 0 1-2.828.794A5.045 5.045 0 0 0 23.337.37a9.71 9.71 0 0 1-3.126 1.226A4.864 4.864 0 0 0 16.617 0c-2.72 0-4.925 2.261-4.925 5.048 0 .397.044.782.128 1.152C7.728 5.989 4.099 3.98 1.67.925a5.127 5.127 0 0 0-.666 2.537 5.08 5.08 0 0 0 2.19 4.203 4.793 4.793 0 0 1-2.23-.632v.065c0 2.445 1.697 4.487 3.95 4.95a4.821 4.821 0 0 1-2.224.086c.627 2.006 2.445 3.466 4.6 3.507A9.725 9.725 0 0 1 0 17.732 13.69 13.69 0 0 0 7.548 20" /></g></g></svg>
+</a>
+<a href="mailto:?subject=Why%20Is%20Programming%20Important%3F&amp;body=https%3A%2F%2Fwww.gcu.edu%2Fblog%2Fengineering-technology%2Fcomputer-programming-importance" title="Share via eMail" data-share="mail" data-tooltip="top">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 18"><g><g><path fill="#522398" d="M8.56 10.06C2.34 5.544 1.865 5.146.43 4.026A1.129 1.129 0 0 1 0 3.14V2.25A2.25 2.25 0 0 1 2.25 0h19.5A2.25 2.25 0 0 1 24 2.25v.89c0 .348-.16.676-.431.887-1.435 1.125-1.908 1.518-8.128 6.032-.788.572-2.353 1.96-3.441 1.941-1.087.019-2.653-1.369-3.44-1.94zm14.985-4.116a.282.282 0 0 1 .455.22v9.586A2.25 2.25 0 0 1 21.75 18H2.25A2.25 2.25 0 0 1 0 15.75V6.169a.28.28 0 0 1 .455-.22c1.05.815 2.442 1.851 7.223 5.324.99.722 2.658 2.241 4.322 2.232 1.673.014 3.375-1.538 4.327-2.232 4.78-3.473 6.168-4.514 7.218-5.33z" /></g></g></svg>
+</a>
+</div>
+</div>
+</div>
+<div class="col-md-4 extra-padding">
+<div style="min-height: 580px;" id="inlineRMI" data-module="formBuilder" data-location="https://rmi-form-builder.gcu.edu/v1/generate?value=inline" data-mobile="https://rmi-form-builder.gcu.edu/v1/generate?value=inline&amp;affiliate=MOBI" data-preset='[{ "degree_level_id": "2" }, { "modality_id": "2" }]'>
+<div class="wrapInlineRmiForm">
+<p class="spinner"><span class="sr-only">Loading Form</span></p>
+</div>
+</div>
+<div class="margin-30y">
+<hr>
+</div>
+<div id="LearnMore-Lift">
+<div class="quick-links">
+<p class="h4">More About GCU</p>
+<ul>
+<li><a href="/why-gcu/campus-life">Campus Experience</a></li>
+<li><a href="/degree-programs/online-degrees">Online Experience</a></li>
+</ul>
+</div>
+</div>
+<div class="acquiaLift-blogs"></div>
+</div>
+</div>
+</section>
+</div>
+<section class="blog--related-articles" aria-label="Related Articles">
+<div class="lt-gray extra-padding margin-top-20">
+<div class="container">
+<a class="heading-anchor" id=""></a>
+<h2 class="heading-label">Related Articles in <a href="/blog/engineering-technology">Engineering &amp; Technology</a></h2>
+<div region="content"><div class="js-view-dom-id-88345037cc25a5d53bd4cb9a9bc1f23631f8fa4f8420003bd597a3977972f8f5">
+<div class="views-element-container"><div class="js-view-dom-id-ff957e8161d2d2ed816d97b2aa778b166f9804f32599f3b261d656cbcae111bd">
+<div class="views-row">
+<a class="heading-anchor" id="h-what-is-a-mechanical-engineer-and-how-can-i-become-one"></a>
+<div data-history-node-id="2287" about="/blog/engineering-technology/what-mechanical-engineer-and-how-can-i-become-one" class="card--blog-list card card-with-image card-with-link">
+<a href="/blog/engineering-technology/what-mechanical-engineer-and-how-can-i-become-one" class="card-link-wrap" title="What Is a Mechanical Engineer and How Can I Become One?">
+<picture class="card--blog__image" aria-hidden="true" style="min-height: 195px; max-height: 240px;">
+<img src="https://res.cloudinary.com/grand-canyon-university/image/fetch/w_360,h_240,c_fill,g_faces,q_auto/https://www.gcu.edu/sites/default/files/images/articles/8c2a6774154d075edca72dae31268a1c2f0d3cbf.jpg" alt="students working on robots" loading="lazy" />
+</picture>
+<div class="card-content">
+<h3 class="card--blog__heading"><span>What Is a Mechanical Engineer and How Can I Become One?</span>
+</h3>
+<div class="card--blog-landing-list__body">
+Mechanical engineering is the art of using problem-solving techniques and applying them to the design and manufacturing of an object. Essentially, a mechanical engineer uses creative design and...
+</div>
+<div class="card--blog__footer">
+<span class='press-date'>Posted on&nbsp;June 29, 2023</span>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="views-row">
+<a class="heading-anchor" id="h-what-can-you-do-with-a-science-degree"></a>
+<div data-history-node-id="5534" about="/blog/engineering-technology/what-can-you-do-science-degree" class="card--blog-list card card-with-image card-with-link">
+<a href="/blog/engineering-technology/what-can-you-do-science-degree" class="card-link-wrap" title="What Can You Do With a Science Degree?">
+<picture class="card--blog__image" aria-hidden="true" style="min-height: 195px; max-height: 240px;">
+<img src="https://res.cloudinary.com/grand-canyon-university/image/fetch/w_360,h_240,c_fill,g_faces,q_auto/https://www.gcu.edu/sites/default/files/media/images/Blog/female%20with%20her%20science%20degree.jpg" alt="Girl with her science degree" loading="lazy" />
+</picture>
+<div class="card-content">
+<h3 class="card--blog__heading"><span>What Can You Do With a Science Degree?</span>
+</h3>
+<div class="card--blog-landing-list__body">
+Science degrees can open a wide range of career options for those who are passionate about exploring and understanding the natural world. From studying the fundamental principles of the universe to...
+</div>
+<div class="card--blog__footer">
+<span class='press-date'>Posted on&nbsp;June 14, 2023</span>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="views-row">
+<a class="heading-anchor" id="h-how-to-get-an-engineering-internship"></a>
+<div data-history-node-id="4742" about="/blog/engineering-technology/how-get-engineering-internship" class="card--blog-list card card-with-image card-with-link">
+<a href="/blog/engineering-technology/how-get-engineering-internship" class="card-link-wrap" title="How To Get an Engineering Internship">
+<picture class="card--blog__image" aria-hidden="true" style="min-height: 195px; max-height: 240px;">
+<img src="https://res.cloudinary.com/grand-canyon-university/image/fetch/w_360,h_240,c_fill,g_faces,q_auto/https://www.gcu.edu/sites/default/files/media/GettyImages-596472013.jpg" alt="student in engineering internship" loading="lazy" />
+</picture>
+<div class="card-content">
+<h3 class="card--blog__heading"><span>How To Get an Engineering Internship</span>
+</h3>
+<div class="card--blog-landing-list__body">
+No matter what field you go into, an internship or traineeship can be a helpful way of getting your foot in the door. Through internships, college students will gain valuable firsthand knowledge and...
+</div>
+<div class="card--blog__footer">
+<span class='press-date'>Posted on&nbsp;June 07, 2023</span>
+</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+
+<div role="button" id="backToTop" class="backToTop" tabindex="0">
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 1600 1472" aria-hidden="true">
+<path d="M1579 779q0 51-37 90l-75 75q-38 38-91 38q-54 0-90-38L992 651v704q0 52-37.5 84.5T864 1472H736q-53 0-90.5-32.5T608 1355V651L314 944q-36 38-90 38t-90-38l-75-75q-38-38-38-90q0-53 38-91L710 37q35-37 90-37q54 0 91 37l651 651q37 39 37 91z" fill="#ffffff" />
+</svg>
+<span class="sr-only">Scroll back to top</span>
+</div>
+</main>
+<aside class="gcu-sticky-footer" aria-label="Sticky Website Footer">
+<div class="container gcu-sticky-footer__content">
+<div class="gcu-sticky-footer__logo">
+<a href="/">
+<img loading="lazy" src="/themes/custom/gcu/media/images/header/gcu.svg" width="200" height="40" alt="Grand Canyon University Logo" />
+</a>
+</div>
+<div class="gcu-sticky-footer__contact">
+<a href="tel:+18554285673" title="GCU Phone Number" class="contact-icons phone">
+<span>1-855-GCU-LOPE</span>
+</a>
+<div class="contact-icons chat" tabindex="0" data-module="snapLiveChat" role="button">
+<span>Live Chat</span>
+</div>
+</div>
+<div class="gcu-sticky-footer__cta">
+<a href="https://www.gcu.edu/rmi/standalone" class="buttons button cta button--cta button--lg openRMI">
+Request Info
+</a>
+<a href="https://www.gcu.edu/rmi/apply-now" onclick="dataLayer.push({category: 'navigation', action:'click', value: 'apply-now'})" target="_blank" rel="noopener noreferrer" class="buttons button button--lg apply-btn">
+Apply<span class="hidden-xs"> Now</span>
+<span class="sr-only">Open in New Window</span>
+</a>
+</div>
+</div>
+</aside>
+<footer class="footer" aria-label="Main Website Footer">
+<hr class="footer__hr">
+<div class="container footer__container">
+<div class="row">
+<div class="col-md-6">
+<div class="footer__contact">
+<div class="contact-section">
+<svg class="logo" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 338.78 27.43" xml:space="preserve" aria-label="Find Your Purpose @trademark">
+<defs><style>.cls-1{fill:#552b9a;}</style></defs>
+<path class="cls-1" d="M335.4,0c1.88,0,3.38,1.46,3.38,3.32s-1.5,3.34-3.4,3.34-3.42-1.48-3.42-3.34,1.52-3.32,3.42-3.32h.02Zm-.04,.67c-1.44,0-2.55,1.19-2.55,2.65s1.11,2.65,2.59,2.65c1.44,.02,2.53-1.17,2.53-2.63s-1.09-2.67-2.55-2.67h-.02Zm-.51,4.37h-.77V1.72c.3-.04,.73-.1,1.27-.1,.63,0,.91,.1,1.13,.26,.2,.14,.34,.38,.34,.71,0,.41-.3,.67-.69,.79v.04c.32,.1,.49,.37,.59,.81,.1,.51,.18,.69,.24,.81h-.81c-.1-.12-.16-.41-.26-.81-.06-.34-.26-.51-.69-.51h-.36v1.31Zm.02-1.86h.36c.42,0,.77-.14,.77-.49,0-.3-.22-.51-.71-.51-.2,0-.34,.02-.42,.04v.95Z" />
+<g>
+<path class="cls-1" d="M10.09,16.27H3.61v10.76H0V2.51H10.92v3.11H3.61v7.68h6.48v2.97Z" />
+<path class="cls-1" d="M23.41,24.19h2.07v2.84h-7.72v-2.84h2.04V5.35h-2.04V2.51h7.72v2.84h-2.07V24.19Z" />
+<path class="cls-1" d="M43.86,27.03l-6.71-18.34-.1,.03V27.03h-3.34V2.51h4.51l6.38,18.1,.1-.03V2.51h3.31V27.03h-4.14Z" />
+<path class="cls-1" d="M57.05,27.03V2.51h3.97c7.68,0,9.62,3.77,9.62,11.82,0,8.98-1.9,12.69-9.65,12.69h-3.94Zm4.58-3.04c4.08,0,5.21-2.27,5.21-9.42,0-6.51-1.1-9.02-5.28-9.02h-.9V23.99h.97Z" />
+<path class="cls-1" d="M96.97,27.03h-3.54v-9.42l-5.91-15.1h3.84l3.91,11.26,3.91-11.26h3.67l-5.88,15.03v9.49Z" />
+<path class="cls-1" d="M108.56,14.8c0-8.42,2.24-12.73,7.52-12.73s6.81,4.21,6.81,12.26c0,8.72-1.84,13.09-7.35,13.09s-6.98-4.24-6.98-12.62Zm10.56-.23c0-6.51-.5-9.35-3.17-9.35-2.81,0-3.57,2.97-3.57,9.49s.5,9.69,3.37,9.69,3.37-3.07,3.37-9.82Z" />
+<path class="cls-1" d="M141.29,2.51h3.54V18.91c0,5.45-1.7,8.52-6.88,8.52-5.51,0-6.71-3.37-6.71-8.48V2.51h3.57v15.9c0,4.38,.67,5.98,3.27,5.98,2.47,0,3.21-1.57,3.21-5.88V2.51Z" />
+<path class="cls-1" d="M159.33,16.54c-.23,.03-.43,0-.67,0h-1.3v10.49h-3.61V2.51h5.54c5.31,0,7.42,2.61,7.42,6.58,0,3.01-.94,5.58-3.88,6.78l5.08,11.16h-4.04l-4.54-10.49Zm-.84-3.04c3.11,0,4.54-1,4.54-4.28,0-2.71-1.4-3.61-3.77-3.61h-1.9v7.88h1.14Z" />
+<path class="cls-1" d="M189.05,27.03h-3.61V2.51h5.65c5.24,0,7.31,2.74,7.31,7.15s-1.74,8.25-8.05,8.25h-1.3v9.12Zm1.14-12.16c3.11,0,4.54-1.34,4.54-5.08,0-3.07-1.4-4.17-3.71-4.17h-1.97V14.87h1.14Z" />
+<path class="cls-1" d="M216.21,2.51h3.54V18.91c0,5.45-1.7,8.52-6.88,8.52-5.51,0-6.71-3.37-6.71-8.48V2.51h3.57v15.9c0,4.38,.67,5.98,3.27,5.98,2.47,0,3.21-1.57,3.21-5.88V2.51Z" />
+<path class="cls-1" d="M234.25,16.54c-.23,.03-.43,0-.67,0h-1.3v10.49h-3.61V2.51h5.54c5.31,0,7.42,2.61,7.42,6.58,0,3.01-.93,5.58-3.87,6.78l5.08,11.16h-4.04l-4.54-10.49Zm-.83-3.04c3.11,0,4.54-1,4.54-4.28,0-2.71-1.4-3.61-3.77-3.61h-1.9v7.88h1.14Z" />
+<path class="cls-1" d="M253.75,27.03h-3.61V2.51h5.65c5.24,0,7.31,2.74,7.31,7.15s-1.74,8.25-8.05,8.25h-1.3v9.12Zm1.14-12.16c3.11,0,4.54-1.34,4.54-5.08,0-3.07-1.4-4.17-3.71-4.17h-1.97V14.87h1.14Z" />
+<path class="cls-1" d="M270.39,14.8c0-8.42,2.24-12.73,7.52-12.73s6.81,4.21,6.81,12.26c0,8.72-1.84,13.09-7.35,13.09s-6.98-4.24-6.98-12.62Zm10.55-.23c0-6.51-.5-9.35-3.17-9.35-2.81,0-3.57,2.97-3.57,9.49s.5,9.69,3.37,9.69,3.37-3.07,3.37-9.82Z" />
+<path class="cls-1" d="M302.25,10.29c-.13-3.57-.94-5.11-3.14-5.11-1.97,0-2.94,1.3-2.94,3.11,0,2.3,1.44,3.31,3.41,4.28,2.84,1.37,6.41,2.54,6.41,7.65s-3.07,7.21-6.91,7.21c-4.58,0-6.75-2.47-6.91-7.85l3.61-.4c.17,3.77,1.1,5.21,3.44,5.21,1.97,0,3.11-1.1,3.11-3.51,0-2.71-1.67-3.74-3.67-4.68-2.77-1.3-6.08-2.37-6.08-7.31,0-4.54,3.04-6.81,6.81-6.81,4.07,0,6.31,2.47,6.31,7.75l-3.44,.47Z" />
+<path class="cls-1" d="M324.46,15.94h-6.55v7.98h7.92v3.11h-11.52V2.51h10.92v3.11h-7.32v7.35h6.55v2.97Z" />
+</g>
+</svg>
+<div class="contact-info">
+<a href="tel:+18554285673" title="GCU Phone Number" class="contact-icons phone">
+1-855-GCU-LOPE
+</a>
+<div class="contact-icons chat" tabindex="0" data-module="snapLiveChat" role="button">
+Live Chat
+</div>
+</div>
+</div>
+<div class="contact-section">
+<div class="contact-social social-icons social-icons--grayscale">
+<a href="https://www.facebook.com/GrandCanyonU" target="_blank" title="Like us on Facebook" data-tooltip rel="noopener noreferrer">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g><g><path fill="#48525b" d="M24 12c0-6.628-5.373-12-12-12S0 5.372 0 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078V12h3.047V9.356c0-3.007 1.791-4.669 4.532-4.669 1.313 0 2.687.235 2.687.235v2.953H15.83c-1.49 0-1.955.925-1.955 1.874V12h3.328l-.532 3.469h-2.796v8.385C19.612 22.954 24 17.99 24 12" /></g></g></svg>
+</a>
+<a href="https://twitter.com/gcu" target="_blank" title="Follow us on Twitter" data-tooltip rel="noopener noreferrer">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 20"><g><g><path fill="#48525b" d="M7.548 20c9.057 0 14.01-7.694 14.01-14.366 0-.218-.005-.436-.014-.652A10.17 10.17 0 0 0 24 2.368a9.644 9.644 0 0 1-2.828.794A5.045 5.045 0 0 0 23.337.37a9.71 9.71 0 0 1-3.126 1.226A4.864 4.864 0 0 0 16.617 0c-2.72 0-4.925 2.261-4.925 5.048 0 .397.044.782.128 1.152C7.728 5.989 4.099 3.98 1.67.925a5.127 5.127 0 0 0-.666 2.537 5.08 5.08 0 0 0 2.19 4.203 4.793 4.793 0 0 1-2.23-.632v.065c0 2.445 1.697 4.487 3.95 4.95a4.821 4.821 0 0 1-2.224.086c.627 2.006 2.445 3.466 4.6 3.507A9.725 9.725 0 0 1 0 17.732 13.69 13.69 0 0 0 7.548 20" /></g></g></svg>
+</a>
+<a href="https://www.linkedin.com/school/grand-canyon-university/" target="_blank" title="Connect with us on LinkedIn" data-tooltip rel="noopener noreferrer">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g><g><path fill="#48525b" d="M17.03 20.571V15c0-1.329-.026-3.038-1.848-3.038-1.853 0-2.137 1.447-2.137 2.942v5.667H9.488V9.118H12.9v1.564h.048c.477-.9 1.64-1.848 3.37-1.848 3.6 0 4.27 2.373 4.27 5.459v6.278zM3.412 5.486A2.06 2.06 0 0 1 5.476 3.43c1.136 0 2.063.924 2.063 2.057a2.057 2.057 0 0 1-2.063 2.058 2.06 2.06 0 0 1-2.063-2.058zm.284 15.085V9.118H7.26V20.57zM22.286 0H1.709C.766 0 0 .777 0 1.73v20.54C0 23.223.766 24 1.709 24h20.577c.943 0 1.714-.777 1.714-1.73V1.73C24 .777 23.229 0 22.286 0z" /></g></g></svg>
+</a>
+<a href="https://www.youtube.com/user/gcu" target="_blank" title="Follow us on YouTube" data-tooltip rel="noopener noreferrer">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 17"><g><g><path fill="#48525b" d="M9.518 11.961v-7.1l6.242 3.55zm13.885-9.334A3 3 0 0 0 21.29.502C19.43 0 11.961 0 11.961 0S4.493 0 2.63.502A3 3 0 0 0 .518 2.627C.02 4.5.02 8.41.02 8.41s0 3.91.499 5.784a2.956 2.956 0 0 0 2.111 2.091c1.863.502 9.33.502 9.33.502s7.469 0 9.331-.502a2.956 2.956 0 0 0 2.112-2.09c.499-1.875.499-5.785.499-5.785s0-3.91-.5-5.784z" /></g></g></svg>
+</a>
+<a href="https://instagram.com/gcu/" target="_blank" title="Follow us on Instagram" data-tooltip rel="noopener noreferrer">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><defs><clipPath id="x1yxa"><path d="M.04 0h23.593v23.593H.04z" /></clipPath></defs><g><g><g><g /><g clip-path="url(#x1yxa)"><path fill="#48525b" d="M11.837 0c3.203 0 3.605.014 4.863.07 1.256.059 2.113.258 2.864.55a5.78 5.78 0 0 1 2.089 1.36 5.788 5.788 0 0 1 1.361 2.09c.291.75.491 1.607.548 2.863.057 1.258.071 1.66.071 4.864 0 3.203-.014 3.605-.071 4.863-.057 1.256-.257 2.114-.548 2.864a5.786 5.786 0 0 1-1.361 2.09 5.78 5.78 0 0 1-2.09 1.36c-.75.292-1.607.491-2.863.548-1.258.058-1.66.071-4.863.071-3.204 0-3.606-.013-4.864-.07-1.256-.058-2.113-.257-2.864-.549a5.776 5.776 0 0 1-2.09-1.36 5.78 5.78 0 0 1-1.36-2.09c-.292-.75-.49-1.608-.548-2.864C.053 15.402.04 15 .04 11.797c0-3.204.013-3.606.07-4.864.058-1.256.257-2.113.55-2.864A5.782 5.782 0 0 1 2.02 1.98 5.776 5.776 0 0 1 4.109.62C4.859.328 5.717.129 6.973.07 8.23.015 8.633 0 11.837 0m0 2.125c-3.15 0-3.524.013-4.767.07-1.15.052-1.775.244-2.191.406-.55.214-.943.469-1.356.882a3.652 3.652 0 0 0-.882 1.356c-.162.416-.354 1.04-.407 2.191-.057 1.243-.069 1.617-.069 4.767 0 3.15.012 3.523.07 4.767.052 1.15.244 1.774.406 2.19.213.55.469.943.882 1.356.413.413.805.669 1.356.883.416.161 1.04.354 2.19.406 1.244.057 1.617.069 4.768.069 3.15 0 3.522-.012 4.766-.069 1.15-.052 1.775-.245 2.19-.406.552-.214.944-.47 1.357-.883a3.65 3.65 0 0 0 .882-1.356c.162-.416.355-1.04.407-2.19.057-1.244.068-1.617.068-4.767 0-3.15-.011-3.524-.068-4.767-.052-1.15-.245-1.775-.407-2.19a3.652 3.652 0 0 0-.882-1.357 3.649 3.649 0 0 0-1.356-.882c-.416-.162-1.04-.354-2.19-.406-1.245-.057-1.618-.07-4.767-.07" /></g></g><g><path fill="#48525b" d="M11.838 15.73a3.932 3.932 0 1 1 0-7.864 3.932 3.932 0 0 1 0 7.864m0-9.99a6.058 6.058 0 1 0 0 12.117 6.058 6.058 0 0 0 0-12.117" /></g><g><path fill="#48525b" d="M19.551 5.496a1.415 1.415 0 1 1-2.83-.001 1.415 1.415 0 0 1 2.83 0" /></g></g></g></svg>
+</a>
+</div>
+<div class="contact-address">
+Grand Canyon University © 2023<span class="xs-break-block al l-rights-reserved"> All Rights Reserved</span>
+<span class="break-block">3300 West Camelback Road - Phoenix, AZ 85017</span>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="footer__links">
+<div role="tablist" aria-multiselectable="false" data-module="panelAccordion" class="panel-multiple panel--white panel--hide-controls panel--border">
+<div class="footer__nav-panel">
+<div class="panel" data-panel-index="panel-1" style="opacity:0" data-mobile="0" data-desktop="0">
+<div class="footer__nav-content">
+<div class="panel-heading" id="reqHead-1">
+<div class="panel-title panel-title--purple">
+<div class="panel-button chevron collapsed nav-content__heading" role="tab" tabindex="0" data-toggle="collapse" aria-expanded="true" aria-controls="reqCollapse-1">
+Explore GCU
+</div>
+</div>
+</div>
+<div id="reqCollapse-1" class="panel-collapse collapse" aria-labelledby="reqHead-1" tabindex="0">
+<div class="panel-body">
+ <div class="nav-content__grid">
+<ul class="nav-content__list">
+<li>
+<a href="https://students.gcu.edu/" target="_blank" rel="noopener" title="Opens A New Window" data-tooltip>Current Students</a>
+</li>
+<li>
+<a href="https://alumni.gcu.edu/" target="_blank" rel="noopener" title="Opens A New Window" data-tooltip>Alumni</a>
+</li>
+<li>
+<a href="https://gculopes.com/" target="_blank" rel="noopener" title="Opens A New Window" data-tooltip>Athletics</a>
+</li>
+<li>
+<a href="https://www.gcuarena.com/" target="_blank" rel="noopener" title="Opens A New Window" data-tooltip>Arena</a>
+</li>
+<li>
+<a href="https://lopeshops.gcu.edu/" target="_blank" rel="noopener" title="Opens A New Window" data-tooltip>Lope Shops</a>
+</li>
+<li>
+<a href="https://gcbc.gcu.edu/" target="_blank" rel="noopener" title="Opens A New Window" data-tooltip>GCBC</a>
+</li>
+<li>
+<a href="http://www.canyonpromotions.com/" target="_blank" rel="noopener" title="Opens A New Window" data-tooltip>Canyon Promotions</a>
+</li>
+</ul>
+<ul class="nav-content__list">
+<li>
+<a href="https://www.gcugolf.com/lope-house-restaurant/" target="_blank" rel="noopener" title="Opens A New Window" data-tooltip>Lope House</a>
+</li>
+<li>
+<a href="https://www.gcugolf.com/" target="_blank" rel="noopener" title="Opens A New Window" data-tooltip>GCU Golf Course</a>
+</li>
+<li>
+<a href="https://news.gcu.edu/" target="_blank" rel="noopener" title="Opens A New Window" data-tooltip>GCU News</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="panel" data-panel-index="panel-2" style="opacity:0" data-mobile="0" data-desktop="0">
+<div class="footer__nav-content">
+<div class="panel-heading" id="reqHead-2">
+<div class="panel-title panel-title--purple">
+<div class="panel-button chevron collapsed nav-content__heading" role="tab" tabindex="0" data-toggle="collapse" aria-expanded="true" aria-controls="reqCollapse-2">
+Resources
+</div>
+</div>
+</div>
+<div id="reqCollapse-2" class="panel-collapse collapse" aria-labelledby="reqHead-2" tabindex="0">
+<div class="panel-body">
+<div>
+<ul class="nav-content__list single-list">
+<li>
+<a href="/academics/academic-policies/title-ix.php">Title IX</a>
+</li>
+<li>
+<a href="/privacy-policy">Privacy Policy</a>
+</li>
+<li>
+<a href="https://jobs.gcu.edu/" target="_blank" rel="noopener" title="Opens A New Window" data-tooltip>Careers at GCU</a>
+</li>
+<li>
+<a href="/about/contact">Contact Us</a>
+</li>
+<li>
+<a href="https://www.gcu.edu/about/media-and-branding">Media and Licensing</a>
+</li>
+<li>
+<a href="/academics/academic-policies.php#h-consumer-information">Consumer Information</a>
+</li>
+<li>
+<a href="/financial-disclosures">Financial Disclosures</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div id="block-cookiesdisclaimer">
+<div>
+<div class="disclaimer-nondiscrimination disclaimer" tabindex="0">
+<p><strong>Privacy / Cookie Disclaimer:</strong></p>
+<p>Our site uses cookies to personalize content, to provide social media features/ads and to analyze site traffic. We share information about your use of this site with our social media, advertising and analytics teams who may combine it with other information that you’ve provided to them. By continuing to navigate this site you are consenting to the collection of information via our use of cookies. For more information on our cookie collection and use please visit our <a href=" https://www.gcu.edu/privacy-policy" title="Privacy Policy">Privacy Policy.</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+</section>
+</div>
+<link rel="preload" href="/themes/custom/gcu/assets/styles/main.css?v=0.1.1" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+<noscript>
+      <link rel="stylesheet" href="/themes/custom/gcu/assets/styles/main.css?v=0.1.1" />
+    </noscript>
+<link rel="stylesheet" media="print" href="/sites/default/files/css/css_ceUaY0P2RrUAMuP6RDgygs4h9hVQRMF6BIJZvlSVPP4.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_Sh8XPoZb-Tr0-750lcgQ1HiG87OMUofPH5UiQFQYrT4.css" />
+<script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/4135","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","cro":{"rmi":{"fullpageCompliance":0}},"gcu":{"ajaxBase":"https:\/\/redesign.gcu.edu","ids":{"google_optimize":"GTM-WHKC57K","google_tag_manager":"GTM-W46JW8K"}},"js":{"drupalUrl":"https:\/\/www.gcu.edu","dpUrl":"https:\/\/www.gcu.edu","redesignUrl":"https:\/\/redesign.gcu.edu","apiUrl":"https:\/\/mkt-api.gcu.edu","liveLeadsUrl":"https:\/\/ll.gcu.edu","gcuEduScriptsDir":"https:\/\/www.gcu.edu\/themes\/custom\/gcu\/assets\/scripts","gcuEduThemeDir":"https:\/\/www.gcu.edu\/themes\/custom\/gcu","youtubeApi":"AIzaSyCXCNg6w3uKjDMkfCG0DPAyL-OdOf-Dv_o","mapsApi":"AIzaSyCdQ9FNWKp2nB6ClIYVP70gZcoFnr7z37M","facebookShareAppId":"2195181794114282","formbuilderUrl":"https:\/\/rmi-form-builder.gcu.edu"},"user":{"uid":0,"permissionsHash":"328b073c074dd7ce5114cd562b7f2aaa62d9ceadf3f519ad844112dad3dae569"}}</script>
+<script src="/sites/default/files/js/js_MgaHPElNeRKqSclnG0-HOWU2DJyO6uzGLNCd4A_46wA.js"></script>
+<script async defer src="https://www.googletagmanager.com/gtm.js?id=GTM-W46JW8K"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816" integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw==" data-cf-beacon='{"rayId":"7e07371dde87282d","token":"2acc0d1a3f9748b29fb0d506b07f5732","version":"2023.4.0","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>

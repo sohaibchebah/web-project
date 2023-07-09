@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        
+        
+            <title>What is Programming? A Handbook for Beginners</title>
+        
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+            <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Roboto+Mono:wght@400;700&display=swap">
+        
+
+        
+        
+    <link
+  rel="preload"
+  as="style"
+  onload="this.onload=null;this.rel='stylesheet'"
+  href="https://cdn.freecodecamp.org/news-assets/prism/1.29.0/themes/prism.min.css"
+/>
+<noscript>
+  <link
+    rel="stylesheet"
+    href="https://cdn.freecodecamp.org/news-assets/prism/1.29.0/themes/prism.min.css"
+  />
+</noscript>
+<link
+  rel="preload"
+  as="style"
+  onload="this.onload=null;this.rel='stylesheet'"
+  href="https://cdn.freecodecamp.org/news-assets/prism/1.29.0/plugins/unescaped-markup/prism-unescaped-markup.min.css"
+/>
+<noscript>
+  <link
+    rel="stylesheet"
+    href="https://cdn.freecodecamp.org/news-assets/prism/1.29.0/plugins/unescaped-markup/prism-unescaped-markup.min.css"
+  />
+</noscript>
+
+<script
+  defer
+  src="https://cdn.freecodecamp.org/news-assets/prism/1.29.0/components/prism-core.min.js"
+></script>
+<script
+  defer
+  src="https://cdn.freecodecamp.org/news-assets/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"
+></script>
+
+
+
+        
+        <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/news/assets/css/global-26e2f3cde9.css" />
+        <link rel="stylesheet" type="text/css" href="/news/assets/css/screen-5a4f9d5c91.css" />
+        <link rel="stylesheet" type="text/css" href="/news/assets/css/search-bar-124f5f949c.css" />
+
+        
+        <script defer src="https://cdn.freecodecamp.org/news-assets/algolia/algoliasearch-3-33-0/algoliasearch.min.js"></script>
+        <script defer src="https://cdn.freecodecamp.org/news-assets/algolia/autocomplete-0-36-0/autocomplete.min.js"></script>
+
+        
+        <script defer src="https://cdn.freecodecamp.org/news-assets/dayjs/1.10.4/dayjs.min.js"></script>
+        <script defer src="https://cdn.freecodecamp.org/news-assets/dayjs/1.10.4/localizedFormat.min.js"></script>
+        <script defer src="https://cdn.freecodecamp.org/news-assets/dayjs/1.10.4/relativeTime.min.js"></script>
+
+        
+        
+            <script defer src="https://cdn.freecodecamp.org/news-assets/dayjs/1.10.4/locale/en.min.js"></script>
+        
+
+        
+        <script>let client,index;document.addEventListener("DOMContentLoaded",(()=>{client=algoliasearch("QMJYL5WYTI","89770b24481654192d7a5c402c6ad9a0"),index=client.initIndex("news")})),document.addEventListener("DOMContentLoaded",(()=>{const e=window.screen.width,t=window.screen.height,n=e>=767&&t>=768?8:5,o=document.getElementById("search-form"),s=document.getElementById("search-input"),a=document.getElementById("dropdown-container");let i,d,c;s.addEventListener("input",(e=>{i=e.target.value})),o.addEventListener("submit",(e=>{e.preventDefault(),function(){if(d=document.getElementsByClassName("aa-cursor")[0],d&&i){const e=d.querySelector("a").href;window.location.assign(e)}else!d&&i&&c&&window.location.assign(`https://www.freecodecamp.org/news/search?query=${i}`)}()}));const l=autocomplete("#search-input",{hint:!1,keyboardShortcuts:["s",191],openOnFocus:!0,appendTo:a,debug:!0},[{source:autocomplete.sources.hits(index,{hitsPerPage:n}),debounce:250,templates:{suggestion:e=>(c=!0,`\n            <a href="${e.url}">\n              <div class="algolia-result">\n                <span>${e._highlightResult.title.value}</span>\n              </div>\n            </a>\n          `),empty:()=>(c=!1,'\n            <div class="aa-suggestion footer-suggestion no-hits-footer">\n              <div class="algolia-result">\n                <span>\n                  No tutorials found\n                </span>\n              </div>\n            </div>\n          '),footer:e=>{if(!e.isEmpty)return`\n              <div class="aa-suggestion footer-suggestion">\n                <a id="algolia-footer-selector" href="https://www.freecodecamp.org/news/search?query=${i}">\n                  <div class="algolia-result algolia-footer">\n                    See all results for ${i}\n                  </div>\n                </a>\n              </div>\n            `}}}]).on("autocomplete:selected",((e,t,n,o)=>{d=t?t.url:`https://www.freecodecamp.org/news/search?query=${i}`,"click"!==o.selectionMethod&&"tabKey"!==o.selectionMethod&&c&&window.location.assign(d)}));document.addEventListener("click",(e=>{e.target!==s&&l.autocomplete.close()}))})),document.addEventListener("DOMContentLoaded",(()=>{dayjs.extend(dayjs_plugin_localizedFormat),dayjs.extend(dayjs_plugin_relativeTime),dayjs.locale("en")}));const isAuthenticated=document.cookie.split(";").some((e=>e.trim().startsWith("jwt_access_token="))),isDonor=document.cookie.split(";").some((e=>e.trim().startsWith("isDonor=true")));</script>
+
+        
+        
+    
+        <script
+            data-ad-client="ca-pub-9482786369113753"
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+            crossorigin="anonymous"
+            async
+        ></script>
+    
+
+
+        
+        
+    <script defer src="/news/assets/js/fitvids-5d12072cbf.js"></script>
+    
+    <script>document.addEventListener("DOMContentLoaded",(()=>{const t=document.querySelector(".post-full-content");t&&fitVids(t)}));</script>
+
+
+        
+        
+
+        <link rel="icon" href="https://cdn.freecodecamp.org/universal/favicons/favicon.ico" type="image/png">
+        
+        
+            <link rel="canonical" href="https://www.freecodecamp.org/news/what-is-programming-tutorial-for-beginners/">
+        
+        <meta name="referrer" content="no-referrer-when-downgrade">
+
+        
+
+        
+    <meta name="description" content="Welcome to the amazing world of programming. This is one of the most useful and powerful skills that you can learn and use to make your visions come true.  In this handbook, we will dive into why programming is important, its applications, its basic concepts, and the skills you">
+
+    
+    <meta property="og:site_name" content="freeCodeCamp.org">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="What is Programming? A Handbook for Beginners">
+    
+        <meta property="og:description" content="Welcome to the amazing world of programming. This is one of the most useful and powerful skills that you can learn and use to make your visions come true.  In this handbook, we will dive into why programming is important, its applications, its basic concepts, and the skills you">
+    
+    <meta property="og:url" content="https://www.freecodecamp.org/news/what-is-programming-tutorial-for-beginners/">
+    <meta property="og:image" content="https://www.freecodecamp.org/news/content/images/2022/11/what-is-programming.png">
+    <meta property="article:published_time" content="2022-12-12T17:10:03.000Z">
+    <meta property="article:modified_time" content="2023-01-05T15:58:12.000Z">
+    
+        <meta property="article:tag" content="Programming">
+    
+        <meta property="article:tag" content="Beginner">
+    
+        <meta property="article:tag" content="Beginners Guide">
+    
+    <meta property="article:publisher" content="https://www.facebook.com/freecodecamp">
+    
+
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="What is Programming? A Handbook for Beginners">
+    
+        <meta name="twitter:description" content="Welcome to the amazing world of programming. This is one of the most useful and powerful skills that you can learn and use to make your visions come true.  In this handbook, we will dive into why programming is important, its applications, its basic concepts, and the skills you">
+    
+    <meta name="twitter:url" content="https://www.freecodecamp.org/news/what-is-programming-tutorial-for-beginners/">
+    <meta name="twitter:image" content="https://www.freecodecamp.org/news/content/images/2022/11/what-is-programming.png">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="Estefania Cassingena Navone">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="Programming, Beginner, Beginners Guide">
+    <meta name="twitter:site" content="@freecodecamp">
+    
+        <meta name="twitter:creator" content="@EstefaniaCassN">
+    
+
+    <meta property="og:image:width" content="1505">
+    <meta property="og:image:height" content="788">
+
+
+        
+    <script type="application/ld+json">{
+	"@context": "https://schema.org",
+	"@type": "Article",
+	"publisher": {
+		"@type": "Organization",
+		"name": "freeCodeCamp.org",
+		"url": "https://www.freecodecamp.org/news/",
+		"logo": {
+			"@type": "ImageObject",
+			"url": "https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg",
+			"width": 2100,
+			"height": 240
+		}
+	},
+	"image": {
+		"@type": "ImageObject",
+		"url": "https://www.freecodecamp.org/news/content/images/2022/11/what-is-programming.png",
+		"width": 1505,
+		"height": 788
+	},
+	"url": "https://www.freecodecamp.org/news/what-is-programming-tutorial-for-beginners/",
+	"mainEntityOfPage": {
+		"@type": "WebPage",
+		"@id": "https://www.freecodecamp.org/news/"
+	},
+	"datePublished": "2022-12-12T17:10:03.000Z",
+	"dateModified": "2023-01-05T15:58:12.000Z",
+	"keywords": "Programming, Beginner, Beginners Guide",
+	"description": "Welcome to the amazing world of programming. This is one of the most useful and\npowerful skills that you can learn and use to make your visions come true. \n\nIn this handbook, we will dive into why programming is important, its\napplications, its basic concepts, and the skills you need to become a successful\nprogrammer. \n\nYou will learn:\n * What programming is and why it is important.\n * What a programming language is and why it is important.\n * How programming is related to binary numbers.\n * Rea",
+	"headline": "What is Programming? A Handbook for Beginners",
+	"author": {
+		"@type": "Person",
+		"name": "Estefania Cassingena Navone",
+		"url": "https://www.freecodecamp.org/news/author/estefaniacn/",
+		"sameAs": [
+			"https://www.youtube.com/codingwithestefania",
+			"https://twitter.com/EstefaniaCassN"
+		],
+		"image": {
+			"@type": "ImageObject",
+			"url": "https://www.freecodecamp.org/news/content/images/2022/12/YouTube-Channel-Icon--1-.png",
+			"width": 800,
+			"height": 800
+		}
+	}
+}</script>
+
+
+        <meta name="generator" content="Eleventy">
+        <link rel="alternate" type="application/rss+xml" title="freeCodeCamp.org" href="https://www.freecodecamp.org/news/rss/">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+<!-- Web Monetization (https://webmonetization.org/) -->
+<meta name="monetization" content="$ilp.uphold.com/LJmbPn7WD4JB">
+<!-- end Web Monetization -->
+
+<!-- dataLayer setup -->
+<script>
+window.dataLayer = window.dataLayer || [];
+</script>
+<!-- End dataLayer setup -->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5D6RKKP');</script>
+<!-- End Google Tag Manager -->
+
+
+<meta name="google-site-verification" content="b4tITLzEeeZGEpvD4mGNf3khKM4fvqejQaz9SYBQP8E" />
+
+        
+    </head>
+    
+    
+        <body class="home-template">
+    
+        <div class="site-wrapper">
+            <nav class="site-nav nav-padding">
+    <div class="site-nav-left">
+        
+<form id="search-form" data-test-label="search-bar">
+    <div role="search" class="searchbox__wrapper">
+        <label class="fcc_sr_only" for='search-input'>
+            Search
+        </label>
+        <input type="search" placeholder="
+    Search 10,100+ tutorials
+" id="search-input" />
+        <button type="submit" class="ais-SearchBox-submit">
+            <svg class="ais-SearchBox-submitIcon" xmlns="https://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 40 40">
+    <path d="M26.804 29.01c-2.832 2.34-6.465 3.746-10.426 3.746C7.333 32.756 0 25.424 0 16.378 0 7.333 7.333 0 16.378 0c9.046 0 16.378 7.333 16.378 16.378 0 3.96-1.406 7.594-3.746 10.426l10.534 10.534c.607.607.61 1.59-.004 2.202-.61.61-1.597.61-2.202.004L26.804 29.01zm-10.426.627c7.323 0 13.26-5.936 13.26-13.26 0-7.32-5.937-13.257-13.26-13.257C9.056 3.12 3.12 9.056 3.12 16.378c0 7.323 5.936 13.26 13.258 13.26z" />
+</svg>
+
+            <span class="fcc_sr_only">Submit your search query</span>
+        </button>
+        <div id='dropdown-container'></div>
+    </div>
+</form>
+
+    </div>
+    <div class="site-nav-middle">
+        <a class="site-nav-logo" href="https://www.freecodecamp.org/news" data-test-label="site-nav-logo"><img src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" alt="freeCodeCamp.org" /></a>
+    </div>
+    <div class="site-nav-right">
+        <div class="nav-group">
+            <a
+                class="nav-forum"
+                id="nav-forum"
+                rel="noopener noreferrer"
+                href="https://forum.freecodecamp.org/"
+                target="_blank"
+                data-test-label="forum-button"
+            >Forum</a>
+            <a
+                class="toggle-button-nav"
+                id="nav-donate"
+                rel="noopener noreferrer"
+                href="https://www.freecodecamp.org/donate/"
+                target="_blank"
+                data-test-label="donate-button"
+            >Donate</a>
+        </div>
+    </div>
+</nav>
+
+
+            
+            <a class="banner" id="banner" data-test-label="banner" rel="noopener noreferrer" target="_blank">
+    <p id="banner-text"></p>
+</a>
+
+
+    
+    <script>document.addEventListener("DOMContentLoaded",(()=>{const e=document.getElementById("banner"),t=document.getElementById("banner-text");isAuthenticated?(t.innerHTML="Support our charity and our mission. <span>Donate to freeCodeCamp.org</span>.",e.href="https://www.freecodecamp.org/donate",e.setAttribute("text-variation","authenticated")):isDonor?(t.innerHTML="Thank you for supporting freeCodeCamp through <span>your donations</span>.",e.href="https://www.freecodecamp.org/news/how-to-donate-to-free-code-camp/",e.setAttribute("text-variation","donor")):(t.innerHTML="Learn to code — <span>free 3,000-hour curriculum</span>",e.href="https://www.freecodecamp.org/",e.setAttribute("text-variation","default"))}));</script>
+
+
+            <div id="error-message"></div>
+
+            
+    <main id="site-main" class="post-template site-main outer">
+        <div class="inner ad-layout">
+            <article class="post-full post ">
+                <header class="post-full-header">
+                    <section class="post-full-meta">
+                        <time class="post-full-meta-date" datetime="Mon Dec 12 2022 17:10:03 GMT+0000 (Coordinated Universal Time)">
+                            December 12, 2022
+                        </time>
+                        
+                            <span class="date-divider">/</span>
+                            <a  dir="ltr" href="/news/tag/programming/">
+                                #Programming
+                            </a>
+                        
+                    </section>
+                    <h1 class="post-full-title">What is Programming? A Handbook for Beginners</h1>
+                </header>
+                <div class="post-full-author-header" data-test-label="author-header-no-bio">
+                    
+                        
+                            
+    
+    
+    
+
+    <section class="author-card" data-test-label="author-card">
+        
+            
+    <img
+      srcset="https://www.freecodecamp.org/news/content/images/size/w60/2022/12/YouTube-Channel-Icon--1-.png 60w"
+      sizes="60px"
+      src="https://www.freecodecamp.org/news/content/images/size/w60/2022/12/YouTube-Channel-Icon--1-.png"
+      class="author-profile-image"
+      alt="Estefania Cassingena Navone"
+      width="800"
+      height="800"
+      onerror="this.style.display='none'"
+      
+      data-test-label="profile-image"
+    />
+  
+        
+
+        <section class="author-card-content author-card-content-no-bio">
+            <span class="author-card-name">
+                <a href="/news/author/estefaniacn/" data-test-label="profile-link">
+                    
+                        Estefania Cassingena Navone
+                    
+                </a>
+            </span>
+            
+        </section>
+    </section>
+
+                        
+                    
+                </div>
+                
+                    <figure class="post-full-image">
+                        
+    <picture>
+      <source
+        media="(max-width: 700px)"
+        sizes="1px"
+        srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7 1w"
+      />
+      <source 
+        media="(min-width: 701px)"
+        sizes="(max-width: 800px) 400px, (max-width: 1170px) 700px, 1400px"
+        srcset="https://www.freecodecamp.org/news/content/images/size/w300/2022/11/what-is-programming.png 300w,https://www.freecodecamp.org/news/content/images/size/w600/2022/11/what-is-programming.png 600w,https://www.freecodecamp.org/news/content/images/size/w1000/2022/11/what-is-programming.png 1000w,https://www.freecodecamp.org/news/content/images/size/w2000/2022/11/what-is-programming.png 2000w"
+      />
+      <img
+        onerror="this.style.display='none'"
+        src="https://www.freecodecamp.org/news/content/images/size/w2000/2022/11/what-is-programming.png"
+        alt="What is Programming? A Handbook for Beginners",
+        width="1505"
+        height="788"
+      >
+    </picture>
+  
+                    </figure>
+                
+                <section class="post-full-content">
+                    <div class="post-and-sidebar">
+                        <section class="post-content ">
+                            
+<p><strong>Welcome to the amazing world of programming. </strong>This is one of the most useful and powerful skills that you can learn and use to make your visions come true. </p><p>In this handbook, we will dive into why programming is important, its applications, its basic concepts, and the skills you need to become a successful programmer. </p><h3 id="you-will-learn-">You will learn:</h3><ul><li><a href="#-what-is-programming">What programming is and why it is important</a>.</li><li><a href="#-what-is-a-programing-language">What a programming language is and why it is important</a>.</li><li><a href="#-programming-and-binary-numbers">How programming is related to binary numbers</a>.</li><li><a href="#-real-world-applications-of-programming">Real-world applications of programming</a>.</li><li><a href="#-skills-of-a-successful-programmer">Skills you need to succeed as a programmer</a>.</li><li><a href="#-tips-for-learning-how-to-code">Tips for learning how to code</a>.</li><li><a href="#-basic-programming-concepts">Basic programming concepts</a>.</li><li><a href="#-types-of-programming-languages">Types of programming languages</a>.</li><li><a href="#-how-to-contribute-to-open-source-projects">How to contribute to open source projects</a>.</li><li>And more...</li></ul><p>Are you ready? Let's begin! ✨ &nbsp;</p><h2 id="-what-is-programming">🔹 What is Programming?</h2><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://www.freecodecamp.org/news/content/images/2022/12/main-image.png" class="kg-image" alt="main-image" srcset="https://www.freecodecamp.org/news/content/images/size/w600/2022/12/main-image.png 600w, https://www.freecodecamp.org/news/content/images/size/w1000/2022/12/main-image.png 1000w, https://www.freecodecamp.org/news/content/images/2022/12/main-image.png 1280w" sizes="(min-width: 720px) 720px" width="1280" height="720" loading="lazy"><figcaption>Programming is essential for our everyday lives.</figcaption></figure><p>Did you know that computer programming is already a fundamental part of your everyday lives? Let's see why. I'm sure that you will be greatly surprised. </p><p>Every time you turn on your smartphone, laptop, tablet, smart TV, or any other electronic device, you are running code that was planned, developed, and written by developers. This code creates the final and interactive result that you can see on your screen.</p><p>That is exactly what <strong>programming</strong> is all about. It is the process of writing code to solve a particular problem or to implement a particular task. </p><p>Programming is what allows your computer to run the programs you use every day and your smartphone to run the apps that you love. It is an essential part of our world as we know it. </p><p>Whenever you check your calendar, attend virtual conferences, browse the web, or edit a document, you are using <strong>code</strong> that has been written by developers. </p><p>"And what is code?" you may ask.</p><p><strong>Code</strong> is a sequence of instructions that a programmer writes to tell a device (like a computer) what to do. </p><p>The device cannot know by itself how to handle a particular situation or how to perform a task. So developers are in charge of analyzing the situation and writing explicit instructions to implement what is needed. </p><p>To do this, they follow a particular syntax (a set of rules for writing the code).</p><p>A <strong>developer</strong> (or programmer) is the person who analyzes a problem and implements a solution in code.</p><p>Sounds amazing, right? It's very powerful and <strong>you</strong> can be part this wonderful world too by learning how to code. Let's see how.</p><h3 id="you-as-a-developer-">You, as a developer. </h3><p>Let's put you in a developer's shoes for a moment. Imagine that you are developing a mobile app, like the ones that you probably have installed on your smartphone right now. </p><p>What is the first thing that you would do? </p><p>Think about this for a moment.</p><p>The answer is...</p><p>Analyzing the problem. What are you trying to build?</p><p>As a developer, you would start by designing the layout of the app, how it will work, its different screens and functionality, and all the small details that will make your app an awesome tool for users around the world. </p><p>Only after you have everything carefully planned out, you can start to write your code. To do that, you will need to choose a <strong>programming language</strong> to work with. Let's see what a programming language is and why they are super important. </p><h2 id="-what-is-a-programing-language">🔸 What is a Programing Language?</h2><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://www.freecodecamp.org/news/content/images/2022/12/what-is-a-programming-language.png" class="kg-image" alt="what-is-a-programming-language" srcset="https://www.freecodecamp.org/news/content/images/size/w600/2022/12/what-is-a-programming-language.png 600w, https://www.freecodecamp.org/news/content/images/size/w1000/2022/12/what-is-a-programming-language.png 1000w, https://www.freecodecamp.org/news/content/images/2022/12/what-is-a-programming-language.png 1280w" sizes="(min-width: 720px) 720px" width="1280" height="720" loading="lazy"><figcaption>Logos of popular programming languages.</figcaption></figure><p>A <strong>programming language</strong> is a language that computers can understand. </p><p>We cannot just write English words in our program like this:</p><blockquote>"Computer, solve this task!"</blockquote><p>and hope that our computer can understand what we mean. We need to follow certain rules to write the instructions. </p><p>Every programming language has its own set of rules that determine if a line of code is valid or not. Because of this, the code you write in one programming language will be slightly different from others. </p><p><strong>💡 Tip:</strong> Some programming languages are more complex than others but most of them share core concepts and functionality. If you learn how to code in one programming language, you will likely be able to learn another one faster.</p><p>Before you can start writing awesome programs and apps, you need to learn the basic rules of the programming language you chose for the task. </p><p>💡 <strong>Tip:</strong> a <strong>program</strong> is a set of instructions written in a programming language for the computer to execute. We usually write the code for our program in one or multiple files.</p><p>For example, this is a line of code in Python (a very popular programming language) that shows the message <code>"Hello, World!"</code>:</p><pre><code class="language-python">print("Hello, World!")</code></pre><p>But if we write the same line of code in JavaScript (a programming language mainly used for web development), we will get an error because it will not be valid.</p><p>To do something very similar in JavaScript, we would write this line of code instead:</p><pre><code>console.log("Hello, World!");</code></pre><p>Visually, they look very different, right? This is because Python and JavaScript have a different syntax and a different set of <strong>built-in functions</strong>.</p><p><strong>💡 Tip</strong>: <strong>built-in functions</strong> are basically tasks that are already defined in the programming language. This lets us use them directly in our code by writing their names and by specifying the values they need. &nbsp;</p><p>In our examples, <code><strong>print()</strong></code> is a built-in function in Python while <code><strong>console.log()</strong></code> is a function that we can use in JavaScript to see the message in the console (an interactive tool) if we run our code in the browser. </p><p>Examples of programming languages include Python, JavaScript, TypeScript, Java, C, C#, C++, PHP, Go, Swift, SQL, and R. There are many programming languages and most of them can be used for many different purposes. </p><p>💡 <strong>Tip: </strong>These were the most popular programming languages on the <a href="https://survey.stackoverflow.co/2022/#most-popular-technologies-language">Stack Overflow Developer Survey 2022</a>:</p><figure class="kg-card kg-image-card kg-width-wide kg-card-hascaption"><img src="https://www.freecodecamp.org/news/content/images/2022/12/Screen-Shot-2022-12-02-at-9.06.50-PM.png" class="kg-image" alt="Screen-Shot-2022-12-02-at-9.06.50-PM" srcset="https://www.freecodecamp.org/news/content/images/size/w600/2022/12/Screen-Shot-2022-12-02-at-9.06.50-PM.png 600w, https://www.freecodecamp.org/news/content/images/size/w1000/2022/12/Screen-Shot-2022-12-02-at-9.06.50-PM.png 1000w, https://www.freecodecamp.org/news/content/images/size/w1600/2022/12/Screen-Shot-2022-12-02-at-9.06.50-PM.png 1600w, https://www.freecodecamp.org/news/content/images/2022/12/Screen-Shot-2022-12-02-at-9.06.50-PM.png 2064w" sizes="(min-width: 1200px) 1200px" width="2064" height="1418" loading="lazy"><figcaption>The 14 most popular programming languages among all respondents of the <a href="https://survey.stackoverflow.co/2022/#most-popular-technologies-language">StackOverflow Developer Survey 2022</a>. It's a yearly survey that collects information about popular technologies and trends in the developer community.</figcaption></figure><p>There are many other programming languages (hundreds or even thousands!) but usually, you will learn and work with some of the most popular ones. Some of them have broader applications like Python and JavaScript while others (like R) have more specific (and even scientific) purposes. </p><p>This sounds very interesting, right? And we are only starting to talk about programming languages. There is a lot to learn about them and I promise you that if you dive deeper into programming, your time and effort will be totally worth it. </p><p>Awesome! Now that you know what programming is and what programming languages are all about, let's see how programming is related to binary numbers. </p><h2 id="-programming-and-binary-numbers">🔹 Programming and Binary Numbers</h2><p>When you think about programming, perhaps the first thing that comes to your mind is something like the below image, right? A sequence of <code>0</code>s and <code>1</code>s on your computer. </p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://www.freecodecamp.org/news/content/images/2022/12/binary.png" class="kg-image" alt="binary" srcset="https://www.freecodecamp.org/news/content/images/size/w600/2022/12/binary.png 600w, https://www.freecodecamp.org/news/content/images/size/w1000/2022/12/binary.png 1000w, https://www.freecodecamp.org/news/content/images/2022/12/binary.png 1280w" sizes="(min-width: 720px) 720px" width="1280" height="720" loading="lazy"><figcaption>Binary numbers are 0 and 1.</figcaption></figure><p>Programming is indeed related to binary numbers ( <code>0</code> and <code>1</code>) but in an indirect way. Developers do not actually write their code using zeros and ones. </p><p>We usually write programs in a high-level programming language, a programming language with a syntax that recognizes specific words (called keywords), symbols, and values of different data types. </p><p>Basically, we write code in a way that humans can understand.</p><p>For example, these are the keywords that we can use in Python:</p><figure class="kg-card kg-code-card"><pre><code class="language-python">False               class               from                or
+None                continue            global              pass
+True                def                 if                  raise
+and                 del                 import              return
+as                  elif                in                  try
+assert              else                is                  while
+async               except              lambda              with
+await               finally             nonlocal            yield
+break               for                 not </code></pre><figcaption>List of Python keywords.</figcaption></figure><p>Every programming language has its own set of keywords (words written in English). These keywords are part of the syntax and core functionality of the programming language. </p><p>But keywords are just common words in English, almost like the ones that we would find in a book.</p><p>That leads us to two very important questions:</p><ul><li>How does the computer understand and interpret what we are trying to say?</li><li>Where does the binary number system come into play here?</li></ul><p>The computer does <strong>not</strong> understand these words, symbols, or values directly. </p><p>When a program runs, the code that we write in a high-level programming language that humans can understand is automatically transformed into binary code that the computer can understand. </p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://www.freecodecamp.org/news/content/images/2022/12/11---binary-diagram.png" class="kg-image" alt="11---binary-diagram" srcset="https://www.freecodecamp.org/news/content/images/size/w600/2022/12/11---binary-diagram.png 600w, https://www.freecodecamp.org/news/content/images/size/w1000/2022/12/11---binary-diagram.png 1000w, https://www.freecodecamp.org/news/content/images/2022/12/11---binary-diagram.png 1280w" sizes="(min-width: 720px) 720px" width="1280" height="720" loading="lazy"><figcaption>Process of transforming a program into binary code.</figcaption></figure><p>This transformation of source code that humans can understand into binary code that the computer can understand is called <strong>compilation</strong>. </p><p>According to <a href="https://www.britannica.com/technology/compiler">Britannica</a>, a <strong>compiler</strong> is defined as:</p><blockquote>Computer software that translates (compiles) source code written in a high-level language (e.g., C++) into a set of machine-language instructions that can be understood by a digital computer’s CPU.</blockquote><p>Britannica also mentions that:</p><blockquote>The term <em>compiler</em> was coined by American computer scientist <a href="https://www.britannica.com/biography/Grace-Hopper">Grace Hopper</a>, who designed one of the first compilers in the early 1950s.</blockquote><p>Some programming languages can be classified as <strong>compiled</strong> programming languages while others can be classified as <strong>interpreted</strong> programming languages based on how to they are transformed into machine-language instructions. </p><p>However, they all have to go through a process that converts them into instructions that the computer can understand. </p><p>Awesome. Now you know why binary code is so important for computer science. Without it, basically programming would not exist because computers would not be able to understand our instructions. </p><p>Now let's dive into the applications of programming and the different areas that you can explore. </p><h2 id="-real-world-applications-of-programming">🔸 Real-World Applications of Programming</h2><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://www.freecodecamp.org/news/content/images/2022/12/applications.png" class="kg-image" alt="applications" srcset="https://www.freecodecamp.org/news/content/images/size/w600/2022/12/applications.png 600w, https://www.freecodecamp.org/news/content/images/size/w1000/2022/12/applications.png 1000w, https://www.freecodecamp.org/news/content/images/2022/12/applications.png 1280w" sizes="(min-width: 720px) 720px" width="1280" height="720" loading="lazy"><figcaption>Programming has many real-world applications in basically every industry that you can imagine.&nbsp;</figcaption></figure><p>Programming has many different applications in many different industries. This is truly amazing because you can apply your knowledge in virtually any industry that you are interested in. </p><p>From engineering to farming, from game development to physics, the possibilities are endless if you learn how to code. &nbsp;</p><p>Let's see some of them. (I promise you. They are amazing! ⭐) .</p><h3 id="front-end-web-development">Front-End Web Development</h3><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://www.freecodecamp.org/news/content/images/2022/12/1---frontend.png" class="kg-image" alt="1---frontend" srcset="https://www.freecodecamp.org/news/content/images/size/w600/2022/12/1---frontend.png 600w, https://www.freecodecamp.org/news/content/images/size/w1000/2022/12/1---frontend.png 1000w, https://www.freecodecamp.org/news/content/images/2022/12/1---frontend.png 1280w" sizes="(min-width: 720px) 720px" width="1280" height="720" loading="lazy"><figcaption>Front-End Web Developers develop the parts of websites and web applications that users can see and interact with.</figcaption></figure><p>If you learn how to code, you can use your programming skills to design and develop websites and online platforms. Front-End Web Developers create the parts of the websites that users can see and interact with directly. </p><p>For example, right now you are reading an article on <a href="https://www.freecodecamp.org/">freeCodeCamp</a>'s publication. The publication looks like this and it works like this thanks to code that front-end web developers wrote line by line. </p><p><strong>💡 Tip:</strong> If you learn front-end web development, you can do this too.</p><figure class="kg-card kg-image-card kg-width-wide kg-card-hascaption"><img src="https://www.freecodecamp.org/news/content/images/2022/12/Screen-Shot-2022-12-02-at-9.56.43-PM.png" class="kg-image" alt="Screen-Shot-2022-12-02-at-9.56.43-PM" srcset="https://www.freecodecamp.org/news/content/images/size/w600/2022/12/Screen-Shot-2022-12-02-at-9.56.43-PM.png 600w, https://www.freecodecamp.org/news/content/images/size/w1000/2022/12/Screen-Shot-2022-12-02-at-9.56.43-PM.png 1000w, https://www.freecodecamp.org/news/content/images/size/w1600/2022/12/Screen-Shot-2022-12-02-at-9.56.43-PM.png 1600w, https://www.freecodecamp.org/news/content/images/size/w2400/2022/12/Screen-Shot-2022-12-02-at-9.56.43-PM.png 2400w" sizes="(min-width: 1200px) 1200px" width="2000" height="994" loading="lazy"><figcaption>The HTML and CSS code for freeCodeCamp's Home Page (This is a preview of the code in Chrome Developer Tools).</figcaption></figure><p>Front-End Web Developers use HTML and CSS to create the structure of the website (these are markup languages, which are used to present information) and they write JavaScript code to add functionality and interactivity. </p><p>If you are interested in learning front-end web development, you can learn HTML and CSS with these free courses on freeCodeCamp's YouTube Channel:</p><ul><li><a href="https://www.youtube.com/watch?v=mU6anWqZJcc">Learn HTML5 and CSS3 From Scratch - Full Course</a></li><li><a href="https://www.youtube.com/watch?v=a_iQb1lnAEQ">Learn HTML &amp; CSS – Full Course for Beginners</a></li><li><a href="https://www.youtube.com/watch?v=zJSY8tbf_ys">Frontend Web Development Bootcamp Course (JavaScript, HTML, CSS)</a></li><li><a href="https://www.youtube.com/watch?v=srvUrASNj0s">Introduction To Responsive Web Design - HTML &amp; CSS Tutorial</a></li></ul><p>You can also learn JavaScript for free with these free online courses:</p><ul><li><a href="https://www.youtube.com/watch?v=PkZNo7MFNFg">Learn JavaScript - Full Course for Beginners</a></li><li><a href="https://www.youtube.com/watch?v=jS4aFq5-91M">JavaScript Programming - Full Course</a></li><li><a href="https://www.youtube.com/watch?v=5fb2aPlgoys">JavaScript DOM Manipulation – Full Course for Beginners</a></li><li><a href="https://www.youtube.com/watch?v=ec8vSKJuZTk">Learn JavaScript by Building 7 Games - Full Course</a></li></ul><p><strong>💡 Tip:</strong> You can also earn a <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/">Responsive Web Design Certification</a> while you learn with interactive exercises on freeCodeCamp. </p><h3 id="back-end-web-development">Back-End Web Development</h3><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://www.freecodecamp.org/news/content/images/2022/12/2---backend.png" class="kg-image" alt="2---backend" srcset="https://www.freecodecamp.org/news/content/images/size/w600/2022/12/2---backend.png 600w, https://www.freecodecamp.org/news/content/images/size/w1000/2022/12/2---backend.png 1000w, https://www.freecodecamp.org/news/content/images/2022/12/2---backend.png 1280w" sizes="(min-width: 720px) 720px" width="1280" height="720" loading="lazy"><figcaption>Back-End Web Developers develop servers and databases to handle everything that runs behind the scenes to make more complex web applications work correctly.</figcaption></figure><p>More complex and dynamic web applications that work with user data also require a <strong>server</strong>. This is a computer program that receives requests and sends appropriate responses. They also need a <strong>database</strong>, a collection of values stored in a structured way. </p><p>Back-End Web Developers are in charge of developing the code for these servers. They decide how to handle the different requests, how to send appropriate resources, how to store the information, and basically how to make everything that runs behind the scenes work smoothly and efficiently. </p><p>A real-world example of back-end web development is what happens when you create an account on freeCodeCamp and complete a challenge. Your information is stored on a database and you can access it later when you sign in with your email and password.</p><figure class="kg-card kg-image-card kg-width-wide kg-card-hascaption"><img src="https://www.freecodecamp.org/news/content/images/2022/12/Screen-Shot-2022-12-02-at-10.07.41-PM.png" class="kg-image" alt="Screen-Shot-2022-12-02-at-10.07.41-PM" srcset="https://www.freecodecamp.org/news/content/images/size/w600/2022/12/Screen-Shot-2022-12-02-at-10.07.41-PM.png 600w, https://www.freecodecamp.org/news/content/images/size/w1000/2022/12/Screen-Shot-2022-12-02-at-10.07.41-PM.png 1000w, https://www.freecodecamp.org/news/content/images/size/w1600/2022/12/Screen-Shot-2022-12-02-at-10.07.41-PM.png 1600w, https://www.freecodecamp.org/news/content/images/size/w2400/2022/12/Screen-Shot-2022-12-02-at-10.07.41-PM.png 2400w" sizes="(min-width: 1200px) 1200px" width="2000" height="994" loading="lazy"><figcaption>A freeCodeCamp interactive challenge.</figcaption></figure><p>This amazing interactive functionality was implemented by back-end web developers.</p><p><strong>💡 Tip: </strong>Full-stack Web Developers are in charge of both Front-End and Back-End Web Development. They have specialized knowledge on both areas. </p><p>All the complex platforms that you use every day, like social media platforms, online shopping platforms, and educational platforms, use servers and back-end web development to power their amazing functionality.</p><p>Python is an example of a powerful programming language used for this purpose. This is one of the most popular programming languages out there, and its popularity continues to rise every year. This is partly because it is simple and easy to learn and yet powerful and versatile enough to be used in real-world applications. </p><p><strong>💡 Tip:</strong> if you are curious about the specific applications of Python, this is <a href="https://www.freecodecamp.org/news/what-is-python-used-for-10-coding-uses-for-the-python-programming-language/">an article I wrote on this topic</a>.</p><p>JavaScript can also be used for back-end web development thanks to Node.js. </p><p>Other programming languages used to develop web servers are PHP, Ruby, C#, and Java. </p><p>If you would like to learn Back-End Web Development, these are free courses on freeCodeCamp's YouTube channel:</p><ul><li><a href="https://www.youtube.com/watch?v=jBzwzrDvZ18">Python Backend Web Development Course (with Django)</a></li><li><a href="https://www.youtube.com/watch?v=Oe421EPjeBE">Node.js and Express.js - Full Course</a></li><li><a href="https://www.youtube.com/watch?v=nu_pCVPKzTk">Full Stack Web Development for Beginners (Full Course on HTML, CSS, JavaScript, Node.js, MongoDB)</a></li><li><a href="https://www.youtube.com/watch?v=qwfE7fSVaZM">Node.js / Express Course - Build 4 Projects</a></li></ul><p>💡 <strong>Tip:</strong> freeCodeCamp also has a free <a href="https://www.freecodecamp.org/learn/back-end-development-and-apis/">Back End Development and APIs</a> certification.</p><h3 id="mobile-app-development">Mobile App Development</h3><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://www.freecodecamp.org/news/content/images/2022/12/3---mobile-apps.png" class="kg-image" alt="3---mobile-apps" srcset="https://www.freecodecamp.org/news/content/images/size/w600/2022/12/3---mobile-apps.png 600w, https://www.freecodecamp.org/news/content/images/size/w1000/2022/12/3---mobile-apps.png 1000w, https://www.freecodecamp.org/news/content/images/2022/12/3---mobile-apps.png 1280w" sizes="(min-width: 720px) 720px" width="1280" height="720" loading="lazy"><figcaption>Mobile app developers design and develop the mobile apps we use every day.</figcaption></figure><p>Mobile apps have become part of our everyday lives. I'm sure that you could not imagine life without them. </p><p>Think about your favorite mobile app. What do you love about it? </p><p>Our favorite apps help us with our daily tasks, they entertain us, they solve a problem, and they help us to achieve our goals. They are always there for us. </p><p>That is the power of mobile apps and you can be part of this amazing world too if you learn mobile app development. </p><p>Developers focused on mobile app development are in charge of planning, designing, and developing the user interface and functionality of these apps. They identify a gap in the existing apps and they try to create a working product to make people's lives better. </p><p><strong>💡 Tip:</strong> regardless of the field you choose, your goal as a developer should always be making people's lives better. Apps are not just apps, they have the potential to change our lives. You should always remember this when you are planning your projects. Your code can make someone's life better and that is a very important responsibility. </p><p>Mobile app developers use programming languages like JavaScript, Java, Swift, Kotlin, and Dart. Frameworks like <a href="https://flutter.dev/">Flutter</a> and <a href="https://reactnative.dev/">React Native</a> are super helpful to build cross-platform mobile apps (that is, apps that run smoothly on multiple different operating systems like Android and iOS). </p><p>According to <a href="https://flutter.dev/">Flutter</a>'s official documentation:</p><blockquote>Flutter is an open source framework by Google for building beautiful, natively compiled, multi-platform applications from a single codebase.</blockquote><p>If you would like to learn mobile app development, these are free courses that you can take on freeCodeCamp's YouTube channel:</p><ul><li><a href="https://www.freecodecamp.org/news/p/98a1b5a8-101b-4993-8a76-e70d833bd91e/Flutter%20Course%20for%20Beginners%20%E2%80%93%2037-hour%20Cross%20Platform%20App%20Development%20Tutorial">Flutter Course for Beginners – 37-hour Cross Platform App Development Tutorial</a></li><li><a href="https://www.youtube.com/watch?v=pTJJsmejUOQ">Flutter Course - Full Tutorial for Beginners (Build iOS and Android Apps)</a></li><li><a href="https://www.youtube.com/watch?v=frvXANSaSec">React Native - Intro Course for Beginners</a></li><li><a href="https://www.youtube.com/watch?v=wEVjaXK4sYQ">Learn React Native Gestures and Animations - Tutorial</a></li></ul><h3 id="game-development">Game Development</h3><figure class="kg-card kg-image-card"><img src="https://www.freecodecamp.org/news/content/images/2022/12/4---games.png" class="kg-image" alt="4---games" srcset="https://www.freecodecamp.org/news/content/images/size/w600/2022/12/4---games.png 600w, https://www.freecodecamp.org/news/content/images/size/w1000/2022/12/4---games.png 1000w, https://www.freecodecamp.org/news/content/images/2022/12/4---games.png 1280w" sizes="(min-width: 720px) 720px" width="1280" height="720" loading="lazy"></figure><p>Games create long-lasting memories. I'm sure that you still remember your favorite games and why you love (or loved) them so much. Being a game developer means having the opportunity of bringing joy and entertainment to players around the world. </p><p>Game developers envision, design, plan, and implement the functionality of a game. They also need to find or create assets such as characters, obstacles, backgrounds, music, sound effects, and more. </p><p><strong>💡 Tip: </strong>if you learn how to code, you can create your own games. Imagine creating an awesome and engaging game that users around the world will love. That is what I personally love about programming. You only need your computer, your knowledge, and some basic tools to create something amazing.</p><p>Popular programming languages used for game development include JavaScript, C++, Python, and C#. </p><p>If you are interested in learning game development, you can take these free courses on freeCodeCamp's YouTube channel:</p><ul><li><a href="https://www.youtube.com/watch?v=GFO_txvwK_c">JavaScript Game Development Course for Beginners</a></li><li><a href="https://www.youtube.com/watch?v=ec8vSKJuZTk">Learn JavaScript by Building 7 Games - Full Course</a></li><li><a href="https://www.youtube.com/watch?v=gB1F9G0JXOo">Learn Unity - Beginner's Game Development Tutorial</a></li><li><a href="https://www.youtube.com/watch?v=XGf2GcyHPhc">Learn Python by Building Five Games - Full Course</a></li><li><a href="https://www.youtube.com/watch?v=7BHs1BzA4fs">Code a 2D Game Using JavaScript, HTML, and CSS (w/ Free Game Assets) – Tutorial</a></li><li><a href="https://www.youtube.com/watch?v=iHF5fwsqu4I">2D Game Development with GDevelop - Crash Course</a></li><li><a href="https://www.youtube.com/watch?v=gx_qorHxBpI">Pokémon Coding Tutorial - CS50's Intro to Game Development</a></li></ul><h3 id="biology-physics-and-chemistry">Biology, Physics, and Chemistry</h3><figure class="kg-card kg-image-card"><img src="https://www.freecodecamp.org/news/content/images/2022/12/5---biology-and-science.png" class="kg-image" alt="5---biology-and-science" srcset="https://www.freecodecamp.org/news/content/images/size/w600/2022/12/5---biology-and-science.png 600w, https://www.freecodecamp.org/news/content/images/size/w1000/2022/12/5---biology-and-science.png 1000w, https://www.freecodecamp.org/news/content/images/2022/12/5---biology-and-science.png 1280w" sizes="(min-width: 720px) 720px" width="1280" height="720" loading="lazy"></figure><p>Programming can be applied in every scientific field that you can imagine, including biology, physics, chemistry, and even astronomy. Yes! Scientists use programming all the time to collect and analyze data. They can even run simulations to test hypotheses.</p><h4 id="biology">Biology</h4><p>In biology, computer programs can simulate population genetics and population dynamics. There is even an entire field called <strong>bioinformatics</strong>. </p><p>According to this <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1122955/#:~:text=Bioinformatics%20is%20defined%20as%20the,1).">article</a> "Bioinformatics" by Ardeshir Bayat, member of the Centre for Integrated Genomic Medical Research at the University of Manchester:</p><blockquote>Bioinformatics is defined as the application of tools of computation and analysis to the capture and interpretation of biological data.</blockquote><p>Dr. Bayat mentions that bioinformatics can be used for genome sequencing. He also mentions that its discoveries may lead to drug discoveries and individualized therapies. </p><p>Frequently used programming languages for bioinformatics include Python, R, PHP, PERL, and Java.</p><p>💡 <strong>Tip:</strong> R is a programming "language and environment for statistical computing and graphics" (<a href="https://www.r-project.org/about.html">source</a>). </p><p>An example of a great tool that scientists can use for biology is <a href="https://biopython.org/wiki/Documentation">Biopython</a>. This is a Python framework with "freely available tools for biological computation."</p><p>If you would like to learn more about how you can apply your programming skills in science, these are free courses that you can take on freeCodeCamp's YouTube channel:</p><ul><li><a href="https://www.youtube.com/watch?v=jBlTQjcKuaY">Python for Bioinformatics - Drug Discovery Using Machine Learning and Data Analysis</a></li><li><a href="https://www.youtube.com/watch?v=_V8eKsto3Ug">R Programming Tutorial - Learn the Basics of Statistical Computing</a></li><li><a href="https://www.youtube.com/watch?v=rfscVS0vtbw">Learn Python - Full Course for Beginners [Tutorial]</a></li></ul><h4 id="physics">Physics </h4><p>Physics requires running many simulations and programming is perfect for doing exactly that. With programming, scientists can program and run simulations based on specific scenarios that would be hard to replicate in real life. This is much more efficient.</p><p>Programming languages that are commonly used for physics simulations include C, Java, Python, MATLAB, and JavaScript. &nbsp;</p><h4 id="chemistry">Chemistry</h4><p>Chemistry also relies on simulations and data analysis, so it's a field where programming can be a very helpful tool. </p><p>In <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.197901111">this scientific article</a> by Dr. Ivar Ugi and his colleagues from Organisch-chemisches Institut der Technischen Universität München, they mention that:</p><blockquote>The design of entirely new syntheses, and the classification and documentation of structures, substructures, and reactons are examples of new applications of computers to chemistry.</blockquote><p>Scientific experiments also generate detailed data and results that can be analyzed with computer programs developed by scientists. &nbsp;</p><p>Think about it: writing a program to generate a box plot or a scatter plot or any other type of plot to visualize trends in thousands of measurements can save researchers a lot of time and effort. This lets them focus on the most important part of their work: analyzing the results. </p><figure class="kg-card kg-image-card kg-width-wide kg-card-hascaption"><img src="https://www.freecodecamp.org/news/content/images/2022/12/Screen-Shot-2022-12-04-at-10.40.43-AM.png" class="kg-image" alt="Screen-Shot-2022-12-04-at-10.40.43-AM" srcset="https://www.freecodecamp.org/news/content/images/size/w600/2022/12/Screen-Shot-2022-12-04-at-10.40.43-AM.png 600w, https://www.freecodecamp.org/news/content/images/size/w1000/2022/12/Screen-Shot-2022-12-04-at-10.40.43-AM.png 1000w, https://www.freecodecamp.org/news/content/images/size/w1600/2022/12/Screen-Shot-2022-12-04-at-10.40.43-AM.png 1600w, https://www.freecodecamp.org/news/content/images/size/w2400/2022/12/Screen-Shot-2022-12-04-at-10.40.43-AM.png 2400w" sizes="(min-width: 1200px) 1200px" width="2000" height="412" loading="lazy"><figcaption>Example of data visualizations that you can create with <a href="https://seaborn.pydata.org/#">Seaborn</a>, a Python data visualization library. This is be very helpful to analyze data, right?</figcaption></figure><p><strong>💡 Tips:</strong> if you are interested in diving deeper into this, this is a <a href="https://www.acs.org/content/acs/en/education/students/highschool/chemistryclubs/activities/simulations.html">list of chemistry simulations</a> by the American Chemical Society. These simulations were programmed by developers and they are helping thousands of students and teachers around the world. </p><p>Think about it...You could build the next great simulation. If you are interested in a scientific field, I totally recommend learning how to code. Your work will be much more productive and your results will be easier to analyze.</p><p>If you are interested in learning programming for scientific applications, these are free courses on freeCodeCamp's YouTube channel:</p><ul><li><a href="https://www.youtube.com/watch?v=jBlTQjcKuaY">Python for Bioinformatics - Drug Discovery Using Machine Learning and Data Analysis</a></li><li><a href="https://www.youtube.com/watch?v=LHBE6Q9XlzI">Python for Data Science - Course for Beginners (Learn Python, Pandas, NumPy, Matplotlib)</a></li></ul><h3 id="data-science-and-engineering">Data Science and Engineering</h3><figure class="kg-card kg-image-card"><img src="https://www.freecodecamp.org/news/content/images/2022/12/6---engineering-2.png" class="kg-image" alt="6---engineering-2" srcset="https://www.freecodecamp.org/news/content/images/size/w600/2022/12/6---engineering-2.png 600w, https://www.freecodecamp.org/news/content/images/size/w1000/2022/12/6---engineering-2.png 1000w, https://www.freecodecamp.org/news/content/images/2022/12/6---engineering-2.png 1280w" sizes="(min-width: 720px) 720px" width="1280" height="720" loading="lazy"></figure><p>Talking about data...programming is also essential for a field called <strong>Data Science</strong>. If you are interested in answering questions through data and statistics, this field might be exactly what you are looking for and having programming skills will help you to achieve your goals.</p><p>Data scientists collect and analyze data in order to answer questions in many different fields. According to UC Berkeley in the article "<a href="https://ischoolonline.berkeley.edu/data-science/what-is-data-science/">What is Data Science?</a>":</p><blockquote>Effective data scientists are able to identify relevant questions, collect data from a multitude of different data sources, organize the information, translate results into solutions, and communicate their findings in a way that positively affects business decisions.</blockquote><p>There are many powerful programming languages for analyzing and visualizing data, but perhaps one of the most frequently used ones for this purpose is Python. </p><p>This is an example of the type of data visualizations that you can create with Python. They are very helpful to analyze data visually and you can customize them to your fit needs.</p><figure class="kg-card kg-image-card kg-width-wide kg-card-hascaption"><img src="https://www.freecodecamp.org/news/content/images/2022/12/image-6.png" class="kg-image" alt="image-6" srcset="https://www.freecodecamp.org/news/content/images/size/w600/2022/12/image-6.png 600w, https://www.freecodecamp.org/news/content/images/2022/12/image-6.png 965w" width="965" height="577" loading="lazy"><figcaption>Sample data visualizations from the <a href="https://matplotlib.org/">Matplotlib</a> and <a href="https://seaborn.pydata.org/examples/index.html">Seaborn</a> galleries</figcaption></figure><p>If you are interested in learning programming for data science, these are free courses on freeCodeCamp's YouTube channel:</p><ul><li><a href="https://www.youtube.com/watch?v=ua-CiDNNj30">Learn Data Science Tutorial - Full Course for Beginners</a></li><li><a href="https://www.youtube.com/watch?v=N6BghzuFLIg">Intro to Data Science - Crash Course for Beginners</a></li><li><a href="https://www.youtube.com/watch?v=LHBE6Q9XlzI">Python for Data Science - Course for Beginners (Learn Python, Pandas, NumPy, Matplotlib)</a></li><li><a href="https://www.youtube.com/watch?v=JwSS70SZdyM">Build 12 Data Science Apps with Python and Streamlit - Full Course</a></li><li><a href="https://www.youtube.com/watch?v=r-uOLxNrNk8">Data Analysis with Python - Full Course for Beginners (Numpy, Pandas, Matplotlib, Seaborn)</a></li></ul><p>💡 <strong>Tip: </strong>you can also earn these free certifications on freeCodeCamp:</p><ul><li><a href="https://www.freecodecamp.org/learn/data-visualization/">Data Visualization</a></li><li><a href="https://www.freecodecamp.org/learn/data-analysis-with-python/">Data Analysis with Python</a></li></ul><h3 id="engineering">Engineering</h3><p>Engineering is another field where programming can help you to succeed. Being able to write your own computer programs can make your work much more efficient. </p><p>There are many tools created specifically for engineers. For example, the R programming language is specialized in statistical applications and Python is very popular in this field too. </p><p>Another great tool for programming in engineering is <a href="https://www.mathworks.com/products/matlab.html">MATLAB</a>. According to its official website:</p><blockquote>MATLAB is a programming and numeric computing platform used by millions of engineers and scientists to analyze data, develop algorithms, and create models.</blockquote><p>Really, the possibilities are endless. </p><p>You can learn MATLAB with <a href="https://www.freecodecamp.org/news/learn-matlab-with-this-crash-course/">this crash course on the freeCodeCamp YouTube channel</a>.</p><p>If you are interested in learning engineering tools related to programming, this is a free course on freeCodeCamp's YouTube channel that covers AutoCAD, a 2D and 3D computer-aided design software used by engineers:</p><ul><li><a href="https://www.youtube.com/watch?v=VtLXKU1PpRU">AutoCAD for Beginners - Full University Course</a></li></ul><h3 id="medicine-and-pharmacology">Medicine and Pharmacology</h3><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://www.freecodecamp.org/news/content/images/2022/12/7---medicine-an-pharmachology.png" class="kg-image" alt="7---medicine-an-pharmachology" srcset="https://www.freecodecamp.org/news/content/images/size/w600/2022/12/7---medicine-an-pharmachology.png 600w, https://www.freecodecamp.org/news/content/images/size/w1000/2022/12/7---medicine-an-pharmachology.png 1000w, https://www.freecodecamp.org/news/content/images/2022/12/7---medicine-an-pharmachology.png 1280w" sizes="(min-width: 720px) 720px" width="1280" height="720" loading="lazy"><figcaption>Programming has helped scientists to develop new medical techniques and devices.</figcaption></figure><p>Medicine and pharmacology are constantly evolving by finding new treatments and procedures. Let's see how you can apply your programming skills in these fields.</p><h4 id="medicine">Medicine</h4><p>Programming is really everywhere. If you are interested in the field of medicine, learning how to code can be very helpful for you too. Even if you would like to focus on computer science and software development, you can apply your knowledge in both fields.</p><p>Specialized developers are in charge of developing and writing the code that powers and controls the devices and machines that are used by modern medicine. </p><p>Think about it...all these machines and devices are controlled by software and someone has to write that software. Medical records are also stored and tracked by specialized systems created by developers. That could be you if you decide to follow this path. Sounds exciting, right?</p><p>According to the scientific article <a href="https://www.sciencedirect.com/science/article/abs/pii/S0377123717310651">Application of Computer Techniques in Medicine</a>:</p><blockquote>Major uses of computers in medicine include hospital information system, data analysis in medicine, medical imaging laboratory computing, computer assisted medical decision making, care of critically ill patients, computer assisted therapy and so on.</blockquote><h4 id="pharmacology">Pharmacology</h4><p>Programming and computer science can also be applied to develop new drugs in the field of pharmacology.</p><p>A remarkable example of what you can achieve in this field by learning how to code is presented in <a href="https://news.mit.edu/2019/kristy-carpenter-student-medicine-1018">this article</a> by MIT News. It describes how an MIT senior, Kristy Carpenter, was using computer science in 2019 to develop "new, more affordable drugs." Kristy mentions that:</p><blockquote>Artificial intelligence, which can help compute the combinations of compounds that would be better for a particular drug, can reduce trial-and-error time and ideally quicken the process of designing new medicines.</blockquote><p>Another example of a real-world application of programming in pharmacology is related to Python (yes, Python has many applications!). Among its <a href="https://www.python.org/success-stories/">success stories</a>, we find that Python was selected by AstraZeneca to develop techniques and programs that can help scientists to discover new drugs faster and more efficiently. </p><p>The <a href="https://www.python.org/success-stories/python-for-collaborative-drug-discovery/">documentation</a> explains that:</p><blockquote>To save time and money on laboratory work, experimental chemists use computational models to narrow the field of good drug candidates, while also verifying that the candidates to be tested are not simple variations of each other's basic chemical structure.</blockquote><p>If you are interested in learning programming for medicine or health-related fields, this is a free course on freeCodeCamp's YouTube channel on programming for healthcare imaging:</p><ul><li><a href="https://www.youtube.com/watch?v=M3ZWfamWrBM">PyTorch and Monai for AI Healthcare Imaging - Python Machine Learning Course</a></li></ul><h3 id="education">Education</h3><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://www.freecodecamp.org/news/content/images/2022/12/8---education.png" class="kg-image" alt="8---education" srcset="https://www.freecodecamp.org/news/content/images/size/w600/2022/12/8---education.png 600w, https://www.freecodecamp.org/news/content/images/size/w1000/2022/12/8---education.png 1000w, https://www.freecodecamp.org/news/content/images/2022/12/8---education.png 1280w" sizes="(min-width: 720px) 720px" width="1280" height="720" loading="lazy"><figcaption>Programming can be used to create tools that help teachers and students to have a more productive and engaging learning experience. Teaching students to code also develops their problem-solving skills.</figcaption></figure><p>Have you ever thought that programming could be helpful for education? Well, let me tell you that it is and it is very important. Why? Because the digital learning tools that students and teachers use nowadays are programmed by developers. </p><p>Every time a student opens an educational app, browses an educational platform like freeCodeCamp, writes on a digital whiteboard, or attends a class through an online meeting platform, programming is making that possible. </p><p>As a programmer or as a teacher who knows how to code, you can create the next great app that will enhance the learning experience of students around the world. </p><p>Perhaps it will be a note-taking app, an online learning platform, a presentation app, an educational game, or any other app that could be helpful for students. </p><p>The important thing is to create it with students in mind if your goal is to make something amazing that will create long-lasting memories. </p><p>If you envision it, then you can create it with code. &nbsp;</p><p>Teachers can also teach their students how to code to develop their problem-solving skills and to teach them important skills for their future.</p><p>💡 <strong>Tip: </strong>if you are teaching students how to code, <strong>Scratch</strong> is a great programming language to teach the basics of programming. It is particularly focused on teaching children how to code in an interactive way.</p><p>According to the official <a href="https://scratch.mit.edu/about">Scratch</a> website:</p><blockquote>Scratch is the world’s largest coding community for children and a coding language with a simple visual interface that allows young people to create digital stories, games, and animations.</blockquote><p>If you are interested in learning how to code for educational purposes, these are courses that you may find helpful on freeCodeCamp's YouTube channel:</p><ul><li><a href="https://www.youtube.com/watch?v=x14G4DCk4nY">Scratch Tutorial for Beginners - Make a Flappy Bird Game</a></li><li><a href="https://www.youtube.com/watch?v=F0WoVEr0-44">Computational Thinking &amp; Scratch - Intro to Computer Science - Harvard's CS50 (2018)</a></li><li><a href="https://www.youtube.com/watch?v=fis26HvvDII">Android Development for Beginners - Full Course</a></li><li><a href="https://www.youtube.com/watch?v=VPvVD8t02U8">Flutter Course for Beginners – 37-hour Cross Platform App Development Tutorial</a></li><li><a href="https://www.youtube.com/watch?v=gB1F9G0JXOo">Learn Unity - Beginner's Game Development Tutorial</a></li></ul><h3 id="machine-learning-artificial-intelligence-and-robotics">Machine Learning, Artificial Intelligence, and Robotics</h3><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://www.freecodecamp.org/news/content/images/2022/12/9---robotics.png" class="kg-image" alt="9---robotics" srcset="https://www.freecodecamp.org/news/content/images/size/w600/2022/12/9---robotics.png 600w, https://www.freecodecamp.org/news/content/images/size/w1000/2022/12/9---robotics.png 1000w, https://www.freecodecamp.org/news/content/images/2022/12/9---robotics.png 1280w" sizes="(min-width: 720px) 720px" width="1280" height="720" loading="lazy"><figcaption>Machine Learning and Artificial Intelligence are very popular nowadays because platforms can learn how users engage with their content in order to suggest them relevant information and products.</figcaption></figure><p>Some of the most amazing fields that are directly related to programming are Machine Learning, Artificial Intelligence, and Robotics. Let's see why. </p><p><strong>Artificial Intelligence </strong>is defined by <a href="https://www.britannica.com/technology/artificial-intelligence">Britannica</a> as:</p><blockquote>The project of developing systems endowed with the intellectual processes characteristic of humans, such as the ability to reason, discover meaning, generalize, or learn from past experience.</blockquote><p><strong>Machine learning </strong>is a branch or a subset of the field of Artificial Intelligence in which systems can learn on their own based on data. The goal of this learning process is to predict the expected output. These models continuously learn how to "think" and how to analyze situations based on their previous training. </p><p>The most commonly used programming languages in these fields are Python, C, C#, C++, and MATLAB. </p><p>Artificial intelligence and Machine Learning have amazing applications in various industries, such as:</p><ul><li>Image and object detection.</li><li>Making predictions based on patterns.</li><li>Text recognition.</li><li>Recommendation engines (like when an online shopping platform shows you products that you may like or when YouTube shows you videos that you may like).</li><li>Spam detection for emails.</li><li>Fraud detection.</li><li>Social media features like personalized feeds.</li><li>Many more... there are literally millions of applications in virtually every industry. </li></ul><p>If you are interested in learning how to code for Artificial Intelligence and Machine Learning, these are free courses on freeCodeCamp's YouTube channel:</p><ul><li><a href="https://www.youtube.com/watch?v=i_LwzRVP7bg">Machine Learning for Everybody – Full Course</a></li><li><a href="https://www.youtube.com/watch?v=NWONeJKn6kc">Machine Learning Course for Beginners</a></li><li><a href="https://www.youtube.com/watch?v=V_xro1bcAuA">PyTorch for Deep Learning &amp; Machine Learning – Full Course</a></li><li><a href="https://www.youtube.com/watch?v=tPYj3fFJGjk">TensorFlow 2.0 Complete Course - Python Neural Networks for Beginners Tutorial</a></li><li><a href="https://www.youtube.com/watch?v=Rs_rAxEsAvI">Self-Driving Car with JavaScript Course – Neural Networks and Machine Learning</a></li><li><a href="https://www.youtube.com/watch?v=VtRLrQ3Ev-U">Python TensorFlow for Machine Learning – Neural Network Text Classification Tutorial</a></li><li><a href="https://www.youtube.com/watch?v=0oyCUWLL_fU">Practical Deep Learning for Coders - Full Course from fast.ai and Jeremy Howard</a></li><li><a href="https://www.youtube.com/watch?v=VyWAvY2CF9c">Deep Learning Crash Course for Beginners</a> </li><li><a href="https://www.youtube.com/watch?v=01sAkU_NvOY">Advanced Computer Vision with Python - Full Course</a></li></ul><p><strong>💡 Tip:</strong> you can also earn a <a href="https://www.freecodecamp.org/learn/machine-learning-with-python/">Machine Learning with Python</a> Certification on freeCodeCamp.</p><h3 id="robotics">Robotics</h3><p>Programming is also very important for robotics. Yes, robots are programmed too!</p><p>Robotics is defined by <a href="https://www.britannica.com/technology/robotics">Britannica</a> as the:</p><blockquote>Design, construction, and use of machines (robots) to perform tasks done traditionally by human beings.</blockquote><p>Robots are just like computers. They do not know what to do until you tell them what to do by writing instructions in your programs. If you learn how to code, you can program robots and industrial machinery found in manufacturing facilities. </p><p>If you are interested in learning how to code for robotics, electronics, and related fields, this is a free course on Arduino on freeCodeCamp's YouTube channel:</p><ul><li><a href="https://www.youtube.com/watch?v=zJ-LqeX_fLU">Arduino Course for Beginners - Open-Source Electronics Platform</a></li></ul><h3 id="other-applications">Other Applications</h3><p>There are many other fascinating applications of programming in almost every field. These are some highlights:</p><ul><li><strong>Agriculture: </strong>in <a href="https://news.mit.edu/2015/mitx-mooc-helps-farmer-develop-autonomous-tractor-app-1201">this article</a> by MIT News, a farmer developed an autonomous tractor app after learning how to code.</li><li><strong>Self-driving cars:</strong> autonomous cars rely on software to analyze their surroundings and to make quick and accurate decisions on the road. If you are interested in this area, <a href="https://www.youtube.com/watch?v=Rs_rAxEsAvI">this is a course</a> on this topic on freeCodeCamp's YouTube channel.</li><li><strong>Finance: </strong>programming can also be helpful to develop programs and models that predict financial indicators and trends. For example, this is a <a href="https://www.youtube.com/watch?v=xfzGZB4HhEE">course on algorithmic trading</a> on freeCodeCamp's YouTube channel. </li></ul><p>The possibilities are endless. I hope that this section will give you a notion of why learning how to code is so important for your present and for your future. It will be a valuable skill to have in any field you choose. </p><p>Awesome. Now let's dive into the soft skills that you need to become a successful programmer. </p><h2 id="-skills-of-a-successful-programmer">🔹 Skills of a Successful Programmer</h2><figure class="kg-card kg-image-card"><img src="https://www.freecodecamp.org/news/content/images/2022/12/skills.png" class="kg-image" alt="skills" srcset="https://www.freecodecamp.org/news/content/images/size/w600/2022/12/skills.png 600w, https://www.freecodecamp.org/news/content/images/size/w1000/2022/12/skills.png 1000w, https://www.freecodecamp.org/news/content/images/2022/12/skills.png 1280w" sizes="(min-width: 720px) 720px" width="1280" height="720" loading="lazy"></figure><p>After going through the diverse range of applications of programming, you must be curious to know what skills are needed to succeed in this field. </p><h3 id="curiosity">Curiosity</h3><p>A programmer should be curious. Whether you are just starting to learn how to code or you already have 20 years of experience, coding projects will always present you with new challenges and learning opportunities. If you take these opportunities, you will continously improve your skills and succeed. </p><h3 id="enthusiasm">Enthusiasm</h3><p>Enthusiasm is a key trait of a successful programmer but this applies in general to any field if you want to succeed. Enthusiasm will keep you happy and curious about what you are creating and learning. </p><p><strong>💡 Tip: </strong>If you ever feel like you are not as enthusiastic as you used to be, it's time to find or learn something new that can light the spark in you again and fill you with hope and dreams.</p><h3 id="patience">Patience</h3><p>A programmer must be patient because transforming an initial idea into a working product can take time, effort, and many different steps. Patience will keep you focused on your final goal. &nbsp;</p><h3 id="resilience">Resilience</h3><p>Programming can be challenging. That is true. But what defines you is not how many challenges you face, it's how you face them. If you thrive despite these challenges, you will become a better programmer and you could create something that could change the world. </p><h3 id="creativity">Creativity</h3><p>Programmers must be creative because even though every programming language has a particular set of rules for writing the code, coding is like using LEGOs. You have the building-blocks but you need to decide what to create and how to create it. The process of writing the code requires creativity while following the established best practices.</p><h3 id="problem-solving-and-analysis">Problem-solving and Analysis</h3><p>Programming is basically analyzing and solving problems with code. Depending on your field of choice, those problems will be simpler or more complex but they will all require some level of problem-solving skills and a thorough analysis of the situation. </p><p>Questions like:</p><ul><li>What should I build?</li><li>How can I build it?</li><li>What is the best way to build this?</li></ul><p>Are part of the everyday routine of a programmer.</p><h3 id="ability-to-focus-for-long-periods-of-time">Ability to Focus for Long Periods of Time</h3><p>When you are working on a coding project, you will need to focus on a task for long periods of time. From creating the design, to planning and writing the code, to testing the result, and to fixing bugs (issues with the code), you will dedicate many hours to a particular task. This is why it's essential to be able to focus and to keep your final goal in mind. </p><h3 id="taking-detailed-notes">Taking Detailed Notes</h3><p>This skill is very important for programmers, particularly when you are learning how to code. Taking detailed notes can be help you to understand and remember the concepts and tools you learn. This also applies for experienced programmers, since being a programmer involves life-long learning. </p><h3 id="communication">Communication</h3><p>Initially, you might think that programming is a solitary activity and imagine that a programmer spends hundreds of hours alone sitting on a desk. </p><p>But the reality is that when you find your first job, you will see that communication is super important to coordinate tasks with other team members and to exchange ideas and feedback.</p><h3 id="open-to-feedback">Open to Feedback</h3><p>In programming, there is usually more than one way to implement the same functionality. Different alternatives may work similarly, but some may be easier to read or more efficient in terms of time or resource consumption. </p><p>When you are learning how to code, you should always take constructive feedback as a tool for learning. Similarly, when you are working on a team, take your colleagues' feedback positively and always try to improve. </p><h3 id="life-long-learning">Life-long Learning</h3><p>Programming equals life-long learning. If you are interested in learning how to code, you must know that you will always need to be learning new things as new technologies emerge and existing technologies are updated. Think about it... that is great because there is always something interesting and new to learn!</p><h3 id="open-to-trying-new-things">Open to Trying New Things</h3><p>Finally, an essential skill to be a successful programmer is to be open to trying new things. Step out of your comfort zone and be open to new technologies and products. In the technology industry, things evolve very quickly and adapting to change is essential. </p><h2 id="-tips-for-learning-how-to-code">🔸 Tips for Learning How to Code</h2><figure class="kg-card kg-image-card"><img src="https://www.freecodecamp.org/news/content/images/2022/12/tips.png" class="kg-image" alt="tips" srcset="https://www.freecodecamp.org/news/content/images/size/w600/2022/12/tips.png 600w, https://www.freecodecamp.org/news/content/images/size/w1000/2022/12/tips.png 1000w, https://www.freecodecamp.org/news/content/images/2022/12/tips.png 1280w" sizes="(min-width: 720px) 720px" width="1280" height="720" loading="lazy"></figure><p>Now that you know more about programming, programming languages, and the skills you need to be a successful programmer, let's see some tips for learning how to code. </p><p>💡<strong> Tip: </strong>these tips are based on my personal experience and opinions. </p><ul><li><strong>Choose one programming language to learn first.</strong> When you are learning how to code, it's easy to feel overwhelmed with the number of options and entry paths. My advice would be to focus on understanding the essential computer science concepts and one programming language first. Python and JavaScript are great options to start learning the fundamentals. </li><li><strong>Take detailed notes.</strong> Note-taking skills are essential to record and to analyze the topics you are learning. You can add custom comments and annotations to explain what you are learning. </li><li><strong>Practice constantly.</strong> You can only improve your problem-solving skills by practicing and by learning new techniques and tools. Try to practice every day. </li></ul><p><strong>💡 Tip:</strong> There is a challenge called the <a href="https://www.100daysofcode.com/">#100DaysOfCode</a> challenge that you can join to practice every day. &nbsp;</p><ul><li><strong>Always try again.</strong> If you can't solve a problem on your first try, take a break and come back again and again until you solve it. That is the only way to learn. Learn from your mistakes and learn new approaches. </li><li><strong>Learn how to research and how to find answers. </strong>Programming languages, libraries, and frameworks usually have official documentations that explain their built-in elements and tools and how you can use them. This is a precious resource that you should definitely refer to. </li><li><strong>Browse <a href="https://stackoverflow.com/">Stack Overflow</a>.</strong> This is an amazing platform. It is like an online encyclopedia of answers to common programming questions. You can find answers to existing questions and ask new questions to get help from the community. </li><li><strong>Set goals.</strong> Motivation is one of the most important factors for success. Setting goals is very important to keep you focused, motivated, and enthusiastic. Once you reach your goals, set new ones that you find challenging and exciting.</li><li><strong>Create projects. </strong>When you are learning how to code, applying your skills will help you to expand your knowledge and remember things better. Creating projects is the perfect way to practice and to create a portfolio that you can show to potential employers. </li></ul><h2 id="-basic-programming-concepts">🔹 Basic Programming Concepts</h2><figure class="kg-card kg-image-card"><img src="https://www.freecodecamp.org/news/content/images/2022/12/basic-concepts.png" class="kg-image" alt="basic-concepts" srcset="https://www.freecodecamp.org/news/content/images/size/w600/2022/12/basic-concepts.png 600w, https://www.freecodecamp.org/news/content/images/size/w1000/2022/12/basic-concepts.png 1000w, https://www.freecodecamp.org/news/content/images/2022/12/basic-concepts.png 1280w" sizes="(min-width: 720px) 720px" width="1280" height="720" loading="lazy"></figure><p>Great. If reading this article has helped you confirm that you want to learn programming, let's take your first steps. </p><p>These are some basic programming concepts that you should know:</p><ul><li><strong>Variable: </strong>a variable is a name that we assign to a value in a computer program. When we define a variable, we assign a value to a name and we allocate a space in memory to store that value. The value of a variable can be updated during the program. </li><li><strong>Constant:</strong> a constant is similar to a variable. It stores a value but it cannot be modified. Once you assign a value to a constant, you cannot change it during the entire program. </li><li><strong>Conditional:</strong> a conditional is a programming structure that lets developers choose what the computer should do based on a condition. If the condition is True, something will happen but if the condition is False, something different can happen. </li><li><strong>Loop: </strong>a loop is a programming structure that let us run a code block (a sequence of instructions) multiple times. They are super helpful to avoid code repetition and to implement more complex functionality.</li><li><strong>Function: </strong>a function helps us to avoid code repetition and to reuse our code. It is like a code block to which we assign a name but it also has some special characteristics. We can write the name of the function to run that sequence of instructions without writing them again. </li></ul><p><strong>💡 Tip:</strong> Functions can communicate with main programs and main programs can communicate with functions through <strong>parameters</strong>, <strong>arguments</strong>, and <strong>return</strong> statements. </p><ul><li><strong>Class:</strong> a class is used as a blueprint to define the characteristics and functionality of a type of object. Just like we have objects in our real world, we can represent objects in our programs.</li><li><strong>Bug:</strong> a bug is an error in the logic or implementation of a program that results in an unexpected or incorrect output. </li><li><strong>Debugging: </strong>debugging is the process of finding and fixing bugs in a program. </li><li><strong>IDE: </strong>this acronym stands for Integrated Development Environment. It is a software development environment that has the most helpful tools that you will need to write computer programs such as a file editor, an explorer, a terminal, and helpful menu options. </li></ul><p>💡 <strong>Tip:</strong> a commonly used and free IDE is <a href="https://code.visualstudio.com/">Visual Studio Code</a>, created by Microsoft. </p><p>Awesome! Now you know some of the fundamental concepts in programming. Like you learned, each programming language has a different syntax, but they all share most of these programming structures and concepts. &nbsp;</p><h2 id="-types-of-programming-languages">🔸 Types of Programming Languages</h2><figure class="kg-card kg-image-card"><img src="https://www.freecodecamp.org/news/content/images/2022/12/types-of-programming-languages.png" class="kg-image" alt="types-of-programming-languages" srcset="https://www.freecodecamp.org/news/content/images/size/w600/2022/12/types-of-programming-languages.png 600w, https://www.freecodecamp.org/news/content/images/size/w1000/2022/12/types-of-programming-languages.png 1000w, https://www.freecodecamp.org/news/content/images/2022/12/types-of-programming-languages.png 1280w" sizes="(min-width: 720px) 720px" width="1280" height="720" loading="lazy"></figure><p>Programming languages can be classified based on different criteria. If you want to learn how to code, it's important for you to learn these basic classifications:</p><h3 id="complexity">Complexity</h3><ul><li><strong>High-level programming languages:</strong> they are designed to be understood by humans and they have to be converted into machine code before the computer can understand them. They are the programming languages that we commonly use. For example: JavaScript, Python, Java, C#, C++, and Kotlin.</li><li><strong>Low-level programming languages: </strong>they are more difficult to understand because they are not designed for humans. They are designed to be understood and processed efficiently by machines.</li></ul><h3 id="conversion-into-machine-code">Conversion into Machine Code</h3><ul><li><strong>Compiled programming languages:</strong> programs written with this type of programming language are converted directly into machine code by a compiler. Examples include C, C++, Haskell, and Go. </li><li><strong>Interpreted programming languages:</strong> programs written with this type of programming language rely on another program called the <strong>interpreter, </strong>which is in charge of running the code line by line. Examples include Python, JavaScript, PHP, and Ruby. </li></ul><p><strong>💡 Tip:</strong> according to <a href="https://www.freecodecamp.org/news/compiled-versus-interpreted-languages/">this article</a> on freeCodeCamp's publication:</p><blockquote>Most programming languages can have both compiled and interpreted implementations – the language itself is not necessarily compiled or interpreted. However, for simplicity’s sake, they’re typically referred to as such.</blockquote><p>There are other types of programming languages based on different criteria, such as:</p><ul><li>Procedural programming languages</li><li>Functional programming languages</li><li>Object-oriented programming languages</li><li>Scripting languages</li><li>Logic programming languages</li></ul><p>And the list of types of programming languages continues. This is very interesting because you can analyze the characteristics of a programming language to help you choose the right one for your project. </p><h2 id="-how-to-contribute-to-open-source-projects">🔹 How to Contribute to Open Source Projects</h2><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://www.freecodecamp.org/news/content/images/2022/12/Screen-Shot-2022-12-04-at-4.53.42-PM.png" class="kg-image" alt="Screen-Shot-2022-12-04-at-4.53.42-PM" srcset="https://www.freecodecamp.org/news/content/images/size/w600/2022/12/Screen-Shot-2022-12-04-at-4.53.42-PM.png 600w, https://www.freecodecamp.org/news/content/images/size/w1000/2022/12/Screen-Shot-2022-12-04-at-4.53.42-PM.png 1000w, https://www.freecodecamp.org/news/content/images/size/w1600/2022/12/Screen-Shot-2022-12-04-at-4.53.42-PM.png 1600w, https://www.freecodecamp.org/news/content/images/size/w2400/2022/12/Screen-Shot-2022-12-04-at-4.53.42-PM.png 2400w" sizes="(min-width: 720px) 720px" width="2000" height="992" loading="lazy"><figcaption>GitHub's Home Page.</figcaption></figure><p>Finally, you might think that coding implies sitting at a desk for many hours looking at your code without any human interaction. But let me tell you that this does not have to be true at all. You can be part of a learning community or a developer community.</p><p>Initially, when you are learning how to code, you can participate in a learning community like freeCodeCamp. This way, you will share your journey with others who are learning how to code, just like you. </p><p>Then, when you have enough skills and confidence in your knowledge, you can practice by contributing to open source projects and join developer communities.</p><p>Open source software is defined by <a href="https://opensource.com/resources/what-open-source">Opensource.com</a> as:</p><blockquote>Software with source code that anyone can inspect, modify, and enhance.</blockquote><p><strong><a href="https://github.com/">GitHub</a></strong> is an online platform for hosting projects with version control. There, you can find many open source projects (like <a href="https://github.com/freeCodeCamp/freeCodeCamp">freeCodeCamp</a>) that you can contribute to and practice your skills.</p><p>💡 <strong>Tip:</strong> many open source projects welcome first-time contributions and contributions from all skill levels. These are great opportunities to practice your skills and to contribute to real-world projects. &nbsp;</p><figure class="kg-card kg-image-card kg-width-wide kg-card-hascaption"><img src="https://www.freecodecamp.org/news/content/images/2022/12/Screen-Shot-2022-12-04-at-5.01.58-PM.png" class="kg-image" alt="Screen-Shot-2022-12-04-at-5.01.58-PM" srcset="https://www.freecodecamp.org/news/content/images/size/w600/2022/12/Screen-Shot-2022-12-04-at-5.01.58-PM.png 600w, https://www.freecodecamp.org/news/content/images/size/w1000/2022/12/Screen-Shot-2022-12-04-at-5.01.58-PM.png 1000w, https://www.freecodecamp.org/news/content/images/size/w1600/2022/12/Screen-Shot-2022-12-04-at-5.01.58-PM.png 1600w, https://www.freecodecamp.org/news/content/images/size/w2400/2022/12/Screen-Shot-2022-12-04-at-5.01.58-PM.png 2400w" sizes="(min-width: 1200px) 1200px" width="2000" height="992" loading="lazy"><figcaption>freeCodeCamp's <a href="https://github.com/freeCodeCamp/freeCodeCamp">GitHub repository</a>.</figcaption></figure><p>Contributing to open source projects on GitHub is great to acquire new experience working and communicating with other developers. This is another important skill for finding a job in this field.</p><figure class="kg-card kg-image-card kg-width-wide kg-card-hascaption"><img src="https://www.freecodecamp.org/news/content/images/2022/12/Screen-Shot-2022-12-04-at-5.06.54-PM.png" class="kg-image" alt="Screen-Shot-2022-12-04-at-5.06.54-PM" srcset="https://www.freecodecamp.org/news/content/images/size/w600/2022/12/Screen-Shot-2022-12-04-at-5.06.54-PM.png 600w, https://www.freecodecamp.org/news/content/images/size/w1000/2022/12/Screen-Shot-2022-12-04-at-5.06.54-PM.png 1000w, https://www.freecodecamp.org/news/content/images/2022/12/Screen-Shot-2022-12-04-at-5.06.54-PM.png 1390w" sizes="(min-width: 1200px) 1200px" width="1390" height="428" loading="lazy"><figcaption>GitHub tracks your <a href="https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/viewing-contributions-on-your-profile">contributions</a> and shows them on your profile. These are shown as interactive gray and green squares that represent days of the current year. A darker shade of green means that more contributions were made on that day. Image taken from <a href="https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/viewing-contributions-on-your-profile">this GitHub article</a>.</figcaption></figure><p>Working on a team is a great experience. I totally recommend it once you feel comfortable enough with your skills and knowledge. </p><p>You did it! You reached the end of this article. Great work. Now you know what programming is all about. Let's see a brief summary. </p><h2 id="-in-summary">🔸 In Summary</h2><ul><li>Programming is a very powerful skill. If you learn how to code, you can make your vision come true. </li><li>Programming has many different applications in many different fields. You can find an application for programming in basically any field you choose.</li><li>Programming languages can be classified based on different criteria and they share basic concepts such as variables, conditionals, loops, and functions. </li><li>Always set goals and take detailed notes. To succeed as a programmer, you need to be enthusiastic and consistent. </li></ul><p><strong>Thank you very much for reading my article.</strong> I hope you liked it and found it helpful. Now you know why you should learn how to code.</p><p>🔅 I invite you to follow me on Twitter (<a href="https://twitter.com/EstefaniaCassN">@EstefaniaCassN</a>) and YouTube (<a href="https://www.youtube.com/codingwithestefania">Coding with Estefania</a>) to find coding tutorials. </p>
+
+                        </section>
+                        
+                            <div class="sidebar">
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        if (!isAuthenticated) (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        if (!isAuthenticated) (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        if (!isAuthenticated) (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        if (!isAuthenticated) (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        if (!isAuthenticated) (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        if (!isAuthenticated) (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        if (!isAuthenticated) (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        if (!isAuthenticated) (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        if (!isAuthenticated) (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        if (!isAuthenticated) (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        if (!isAuthenticated) (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        if (!isAuthenticated) (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        if (!isAuthenticated) (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        if (!isAuthenticated) (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        if (!isAuthenticated) (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        if (!isAuthenticated) (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        if (!isAuthenticated) (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        if (!isAuthenticated) (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        if (!isAuthenticated) (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        if (!isAuthenticated) (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        if (!isAuthenticated) (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        if (!isAuthenticated) (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        if (!isAuthenticated) (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        if (!isAuthenticated) (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        if (!isAuthenticated) (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        if (!isAuthenticated) (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        if (!isAuthenticated) (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        if (!isAuthenticated) (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        if (!isAuthenticated) (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        if (!isAuthenticated) (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        if (!isAuthenticated) (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                                    <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        if (!isAuthenticated) (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                                
+                            </div>
+                        
+                    </div>
+                    <hr />
+                    
+                        <div class="post-full-author-header" data-test-label="author-header-with-bio">
+                            
+                                
+    
+    
+    
+
+    <section class="author-card" data-test-label="author-card">
+        
+            
+    <img
+      srcset="https://www.freecodecamp.org/news/content/images/size/w60/2022/12/YouTube-Channel-Icon--1-.png 60w"
+      sizes="60px"
+      src="https://www.freecodecamp.org/news/content/images/size/w60/2022/12/YouTube-Channel-Icon--1-.png"
+      class="author-profile-image"
+      alt="Estefania Cassingena Navone"
+      width="800"
+      height="800"
+      onerror="this.style.display='none'"
+      loading="lazy"
+      data-test-label="profile-image"
+    />
+  
+        
+
+        <section class="author-card-content ">
+            <span class="author-card-name">
+                <a href="/news/author/estefaniacn/" data-test-label="profile-link">
+                    
+                        Estefania Cassingena Navone
+                    
+                </a>
+            </span>
+            
+                
+                    <p data-test-label="author-bio">Developer, technical writer, and content creator @freeCodeCamp. I run the freeCodeCamp.org Español YouTube channel.</p>
+                
+            
+        </section>
+    </section>
+
+                            
+                        </div>
+                        <hr />
+                    
+
+                    
+                    
+                        
+    
+
+
+<p data-test-label="social-row-cta" class="social-row">
+    If you read this far, tweet to the author to show them you care. <button id="tweet-btn" class="cta-button" data-test-label="tweet-button">Tweet a thanks</button>
+</p>
+
+
+    
+    <script>document.addEventListener("DOMContentLoaded",(()=>{const t=document.getElementById("tweet-btn"),e=window.location,n="What%20is%20Programming%3F%20A%20Handbook%20for%20Beginners".replace(/&#39;/g,"%27"),o="",i="@EstefaniaCassN",r=Boolean("");let a;if(r&&(o||i)){const t={originalPostAuthor:"",currentPostAuthor:"Estefania Cassingena Navone"};a=encodeURIComponent(`Thank you ${o||t.originalPostAuthor} for writing this helpful article, and ${i||t.currentPostAuthor} for translating it.`)}else!r&&i&&(a=encodeURIComponent(`Thank you ${i} for writing this helpful article.`));const s=`window.open(\n    '${a?`https://twitter.com/intent/tweet?text=${a}%0A%0A${n}%0A%0A${e}`:`https://twitter.com/intent/tweet?text=${n}%0A%0A${e}`}',\n    'share-twitter',\n    'width=550, height=235'\n  ); return false;`;t.setAttribute("onclick",s)}));</script>
+
+
+                        
+
+<div class="learn-cta-row" data-test-label="learn-cta-row">
+    <p>
+        Learn to code for free. freeCodeCamp's open source curriculum has helped more than 40,000 people get jobs as developers. <a href="https://www.freecodecamp.org/learn/" class="cta-button" id="learn-to-code-cta" rel="noopener noreferrer" target="_blank">Get started</a>
+    </p>
+</div>
+
+                    
+                </section>
+                
+                    <div class="banner-ad bottom">
+                        <div class="ad-wrapper" data-test-label="ad-wrapper">
+    
+    <div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+    <ins
+        class="adsbygoogle"
+        style="display: block; height: 280px;"
+        data-ad-client="ca-pub-9482786369113753"
+        data-ad-slot="5720086888"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+    ></ins>
+    <script>
+        if (!isAuthenticated) (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+                    </div>
+                
+            </article>
+        </div>
+    </main>
+
+
+            
+
+<footer class="site-footer">
+    <div class="footer-container">
+        <div class="footer-top">
+            <div class="footer-desc-col">
+                <p data-test-label="tax-exempt-status">freeCodeCamp is a donor-supported tax-exempt 501(c)(3) charity organization (United States Federal Tax Identification Number: 82-0779546)</p>
+                <p data-test-label="mission-statement">Our mission: to help people learn to code for free. We accomplish this by creating thousands of videos, articles, and interactive coding lessons - all freely available to the public. We also have thousands of freeCodeCamp study groups around the world.</p>
+                <p data-test-label="donation-initiatives">Donations to freeCodeCamp go toward our education initiatives, and help pay for servers, services, and staff.</p>
+                <p class="footer-donation" data-test-label="donate-text">
+                    You can <a href="https://www.freecodecamp.org/donate/" class="inline" rel="noopener noreferrer" target="_blank" >make a tax-deductible donation here</a>.
+                </p>
+            </div>
+            <div class="trending-guides" data-test-label="trending-guides">
+                <div class="col-header">Trending Guides</div>
+                <div class="trending-guides-row">
+                    <div class="footer-col footer-col-1">
+                        <a href="https://www.freecodecamp.org/news/how-to-check-if-a-string-contains-a-substring-javascript/" rel="noopener noreferrer" target="_blank">JS Substring Tutorial
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/bubble-sort-algorithm-in-java-cpp-python-with-example-code/" rel="noopener noreferrer" target="_blank">Bubble Sort Algorithm
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/html-background-image-how-to-add-wallpaper-images-to-your-website/" rel="noopener noreferrer" target="_blank">HTML Background Image
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/what-is-data-science-what-a-data-scientist-actually-does/" rel="noopener noreferrer" target="_blank">What is Data Science?
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/sql-subquery-how-to-sub-query-in-select-statement/" rel="noopener noreferrer" target="_blank">SQL Subquery in SELECT
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/rename-file-linux-bash-command/" rel="noopener noreferrer" target="_blank">Rename a File in Linux
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/git-remove-last-commit-how-to-undo-a-commit-in-git/" rel="noopener noreferrer" target="_blank">Git Remove Last Commit
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/what-is-a-java-hashmap/" rel="noopener noreferrer" target="_blank">What is a Java Hashmap?
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/crud-operations-crud-definition-in-programming/" rel="noopener noreferrer" target="_blank">CRUD Operations Defined
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/git-push-local-branch-to-remote-how-to-publish-a-new-branch-in-git/" rel="noopener noreferrer" target="_blank">Git Push Local to Remote
+                        </a>
+                    </div>
+                    <div class="footer-col footer-col-2">
+                        <a href="https://www.freecodecamp.org/news/ux-vs-ui-whats-the-difference-definition-and-meaning/" rel="noopener noreferrer" target="_blank">UX vs UI
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/vlookup-in-excel-formula-and-example-function/" rel="noopener noreferrer" target="_blank">VLOOKUP in Excel
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/big-o-cheat-sheet-time-complexity-chart/" rel="noopener noreferrer" target="_blank">Big O Cheatsheet
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/renaming-a-git-branch-how-to-rename-the-current-branch-in-git/" rel="noopener noreferrer" target="_blank">Git Rename Branch
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/how-to-create-a-pivot-table-in-excel/" rel="noopener noreferrer" target="_blank">Excel Pivot Table
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/what-is-alt-text-image-alt-text-html-example/" rel="noopener noreferrer" target="_blank">What is Alt Text?
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/html-drop-down-menu-how-to-add-a-drop-down-list-with-the-select-element/" rel="noopener noreferrer" target="_blank">HTML Dropdown Menu
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/python-reverse-list-reversing-an-array-in-python/" rel="noopener noreferrer" target="_blank">Python Reverse List
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/how-to-compare-arrays-in-javascript/" rel="noopener noreferrer" target="_blank">Compare Arrays in JS
+                        </a>
+                        <a href="https://www.freecodecamp.org/news/html-background-color-change-bg-color-tutorial/" rel="noopener noreferrer" target="_blank">HTML Background Color
+                        </a>
+                    </div>
+                    <div class="footer-col footer-col-3">
+                        <div class="footer-left">
+                            <a href="https://www.freecodecamp.org/news/how-to-lowercase-a-string-in-javascript-tolowercase-in-js/" rel="noopener noreferrer" target="_blank">Lowercase a String in JS
+                            </a>
+                            <a href="https://www.freecodecamp.org/news/data-visualization-tools-guide/" rel="noopener noreferrer" target="_blank">Data Visualization Tools
+                            </a>
+                            <a href="https://freecodecamp.org/news/css-selectors-cheat-sheet-for-beginners/" rel="noopener noreferrer" target="_blank">CSS Selectors Cheatsheet
+                            </a>
+                            <a href="https://www.freecodecamp.org/news/sort-dictionary-by-value-in-python/" rel="noopener noreferrer" target="_blank">Sort Dict by Value Python
+                            </a>
+                            <a href="https://www.freecodecamp.org/news/how-to-change-text-color-in-html/" rel="noopener noreferrer" target="_blank">Change Text Color in HTML
+                            </a>
+                        </div>
+
+                        <div class="footer-right">
+                            <a href="https://www.freecodecamp.org/news/dictionary-comprehension-in-python-dict-comprehensions-explained/" rel="noopener noreferrer" target="_blank">Python Dict Comprehension
+                            </a>
+                            <a href="https://www.freecodecamp.org/news/kernel-security-check-failure-how-to-restart-the-kernel-in-windows-10/" rel="noopener noreferrer" target="_blank">Restart Kernel in Windows
+                            </a>
+                            <a href="https://www.freecodecamp.org/news/computer-programmer-salary-how-much-do-coders-make/" rel="noopener noreferrer" target="_blank">Computer Programmer Salary
+                            </a>
+                            <a href="https://www.freecodecamp.org/news/how-to-dual-boot-windows-10-and-ubuntu-linux-dual-booting-tutorial/" rel="noopener noreferrer" target="_blank">Dual Boot Windows + Ubuntu
+                            </a>
+                            <a href="https://www.freecodecamp.org/news/what-is-information-systems-definition-for-beginners/" rel="noopener noreferrer" target="_blank">What is Information Systems?
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='footer-bottom'>
+            <div class="col-header" data-test-label="our-nonprofit">Our Charity</div>
+            <div class="footer-divider"></div>
+            <div class="our-nonprofit">
+                <a href="https://www.freecodecamp.org/news/about/" rel="noopener noreferrer" target="_blank" data-test-label="about">
+                    About
+                </a>
+                <a href="https://www.linkedin.com/school/free-code-camp/people/" rel="noopener noreferrer" target="_blank" data-test-label="alumni">
+                    Alumni Network
+                </a>
+                <a href="https://github.com/freeCodeCamp/" rel="noopener noreferrer" target="_blank" data-test-label="open-source">
+                    Open Source
+                </a>
+                <a href="https://www.freecodecamp.org/news/shop/" rel="noopener noreferrer" target="_blank" data-test-label="shop">
+                    Shop
+                </a>
+                <a href="https://www.freecodecamp.org/news/support/" rel="noopener noreferrer" target="_blank" data-test-label="support">
+                    Support
+                </a>
+                <a href="https://www.freecodecamp.org/news/sponsors/" rel="noopener noreferrer" target="_blank" data-test-label="sponsors">
+                    Sponsors
+                </a>
+                <a href="https://www.freecodecamp.org/news/academic-honesty-policy/" rel="noopener noreferrer" target="_blank" data-test-label="honesty">
+                    Academic Honesty
+                </a>
+                <a href="https://www.freecodecamp.org/news/code-of-conduct/" rel="noopener noreferrer" target="_blank" data-test-label="coc">
+                    Code of Conduct
+                </a>
+                <a href="https://www.freecodecamp.org/news/privacy-policy/" rel="noopener noreferrer" target="_blank" data-test-label="privacy">
+                    Privacy Policy
+                </a>
+                <a href="https://www.freecodecamp.org/news/terms-of-service/" rel="noopener noreferrer" target="_blank" data-test-label="tos">
+                    Terms of Service
+                </a>
+                <a href="https://www.freecodecamp.org/news/copyright-policy/" rel="noopener noreferrer" target="_blank" data-test-label="copyright">
+                    Copyright Policy
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+        </div>
+
+        
+        
+        
+
+        <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5D6RKKP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+        
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816" integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw==" data-cf-beacon='{"rayId":"7e0735714d242138","token":"bdb993c6dde44e178aabd9555e75e4f4","version":"2023.4.0","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>
