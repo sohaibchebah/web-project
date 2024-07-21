@@ -1,3 +1,4 @@
 # web-project
-template1
-[visit](https://sohaibchebah.github.io/web-project/)
+template1  
+[visit the template
+](https://sohaibchebah.github.io/web-project/)
